@@ -1,0 +1,186 @@
+/* -------------------------------------------------- */
+/* Shared Styles for MC4WP Email Inputs Across Footer and Blog Forms */
+/* -------------------------------------------------- */
+form[data-name="Footer"] input[type="email"],
+.subscribe form[data-name="Blog"] input[type="email"],
+form[data-name="Blog"] input[type="email"] {
+	@apply min-w-0 appearance-none rounded-md border-0 px-3 py-1.5 text-base shadow-sm ring-1 ring-inset placeholder:text-gray-500 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6;
+}
+
+/* -------------------------------------------------- */
+/* Footer Form Styles */
+/* -------------------------------------------------- */
+/* Form Fields */
+form[data-name="Footer"] .mc4wp-form-fields {
+	@apply mt-6 sm:flex sm:max-w-md lg:mt-0;
+}
+
+/* Email Input Field */
+form[data-name="Footer"] input[type="email"] {
+	@apply w-full bg-white/5 text-white ring-white/10 focus:ring-green-500 sm:w-56;
+}
+
+/* Subscribe Button Container */
+form[data-name="Footer"] .subscribe-container {
+	@apply mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0;
+}
+
+/* Submit Button */
+form[data-name="Footer"] .subscribe-container input[type="submit"] {
+	@apply btn-lg flex w-full cursor-pointer items-center justify-center;
+}
+
+/* Response Message */
+form[data-name="Footer"] .mc4wp-response {
+	@apply text-sm font-medium text-slate-50;
+}
+
+/* -------------------------------------------------- */
+/* Footer Subscribe Form Styles */
+/* -------------------------------------------------- */
+/* Container Layout */
+.subscribe form[data-name="Blog"] {
+	@apply w-full max-w-md lg:col-span-5 lg:pt-2;
+}
+
+/* Form Fields Layout */
+.subscribe form[data-name="Blog"] .form-container {
+	@apply flex gap-x-4;
+}
+
+/* Email Input Field */
+.subscribe form[data-name="Blog"] input[type="email"] {
+	@apply w-full bg-white/5 text-white ring-white/10 focus:ring-green-500 sm:w-56;
+}
+
+/* Response Message */
+.subscribe form[data-name="Blog"] .mc4wp-response .mc4wp-alert {
+	@apply mx-auto flex h-full min-h-[2.5rem] w-fit items-center justify-center rounded-2xl bg-white/5 px-3.5 py-2 text-center text-sm font-medium text-white ring-1 ring-white/10;
+}
+
+/* -------------------------------------------------- */
+/* Blog Form Styles */
+/* -------------------------------------------------- */
+/* Form Layout and Appearance */
+form[data-name="Blog"] {
+	@apply min-h-[2.5rem] w-full max-w-md lg:pt-2;
+}
+
+/* Form Fields Layout */
+form[data-name="Blog"] .form-container {
+	@apply flex gap-x-4;
+}
+
+/* Email Input Field */
+form[data-name="Blog"] input[type="email"] {
+	@apply flex-auto bg-gray-50 text-gray-900 ring-gray-300 focus:ring-green-600;
+}
+
+/* Submit Button */
+form[data-name="Blog"] input[type="submit"] {
+	@apply btn-xl flex-none cursor-pointer;
+}
+
+/* Response Message */
+form[data-name="Blog"] .mc4wp-response .mc4wp-alert {
+	@apply flex h-full min-h-[2.5rem] w-fit items-center rounded-2xl bg-gray-50 px-3.5 py-2 text-center text-sm font-medium text-gray-900 ring-1 ring-slate-900/10;
+}
+
+/* Response Message in Entry Header */
+.entry-header form[data-name="Blog"] .mc4wp-response .mc4wp-alert {
+	@apply mx-auto;
+}
+
+/* WPForms Styles */
+
+/* Style container */
+div.wpforms-container-full {
+	@apply mx-auto my-0 !important;
+}
+
+.wpforms-field:first-of-type {
+	@apply pt-0;
+}
+
+/* Style input, select and textarea fields */
+div.wpforms-container-full input,
+div.wpforms-container-full select,
+div.wpforms-container-full textarea {
+	@apply rounded-md border-gray-300 px-4 py-3 leading-6 shadow-sm focus:border-green-500 focus:ring-green-500 !important;
+}
+
+/* Additional styles for inputs and select */
+div.wpforms-container-full input,
+div.wpforms-container-full select {
+	@apply h-auto !important;
+}
+
+/* Placeholder styles */
+div.wpforms-container-full input::placeholder,
+div.wpforms-container-full textarea::placeholder {
+	@apply text-gray-600 opacity-100 !important;
+}
+
+/* Style for select element */
+div.wpforms-container-full select {
+	@apply text-gray-600 !important;
+}
+
+/* Styles for field labels */
+.wpforms-container-full .wpforms-field-label {
+	@apply mb-2 text-sm font-semibold leading-6 text-gray-900 !important;
+}
+
+/* Styles for the submit container */
+.wpforms-submit-container {
+	@apply mt-8 flex justify-end pt-0 !important;
+}
+
+/* Button styles */
+div.wpforms-container-full button[type="submit"] {
+	@apply btn-lg block w-full;
+}
+
+/* Confirmation container styles */
+.wpforms-container-full .wpforms-confirmation-container-full {
+	@apply rounded-md border border-green-200 bg-green-50 p-4 !important;
+}
+
+/* Confirmation text styles */
+.wpforms-container-full .wpforms-confirmation-container-full > p {
+	@apply text-sm font-medium text-green-800 !important;
+}
+
+/* Success wrapper styles */
+.success-wrapper {
+	@apply flex !important;
+}
+
+/* SVG wrapper styles */
+.svg-wrapper {
+	@apply flex-shrink-0 !important;
+}
+
+/* SVG styles */
+.svg-wrapper svg {
+	@apply h-5 w-5 text-green-400 !important;
+}
+
+/* Header styles for the content */
+.content-wrapper h3 {
+	@apply mb-3 mt-0 text-sm font-medium text-green-800 !important;
+}
+
+/* Message styles */
+.message {
+	@apply mt-2 text-sm text-green-700 !important;
+}
+
+/* Link styles for "Back to Home" */
+.back-home {
+	@apply mt-3 text-sm !important;
+}
+
+.back-home a {
+	@apply whitespace-nowrap font-medium text-green-700 underline hover:text-green-600 !important;
+}

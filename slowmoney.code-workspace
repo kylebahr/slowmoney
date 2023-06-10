@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+
+	"tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+        "php": "html"
+    }
+
+	"editor.quickSuggestions": {
+		"strings": true
+	  }
+
+}

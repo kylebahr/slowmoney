@@ -1,0 +1,42 @@
+/* Style to ensure images don't exceed the width of their parent container */
+.prose figure {
+	@apply h-auto max-w-full;
+}
+
+.prose figure img {
+	@apply rounded-xl;
+}
+
+/* Style for the caption of an image, adding margin top and aligning items */
+.prose figcaption {
+	@apply mt-4 flex items-center gap-x-2;
+}
+
+/* Style for the comment form section, adding a border top and padding top */
+.comment-respond {
+}
+
+/* Style for the Cancel Reply on comments */
+#reply-title small {
+	@apply ml-4 text-sm font-normal text-gray-500 hover:text-gray-700;
+}
+
+/* In the last comment, hide the span element with the class 'absolute' */
+li.comment:last-child span.absolute {
+	display: none;
+}
+
+/* In the last comment, remove the bottom padding from the direct child div */
+li.comment.depth-1:last-child > div {
+	@apply pb-0;
+}
+
+/* Styling for the logged-in-as text, making it smaller and a lighter shade of gray */
+.logged-in-as {
+	@apply my-1 text-sm text-gray-500;
+}
+
+/* Styling for comments */
+ol.children {
+	@apply space-y-8 pl-8 sm:pl-14;
+}
