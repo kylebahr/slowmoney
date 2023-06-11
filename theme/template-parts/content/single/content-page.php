@@ -32,7 +32,7 @@ entry_title();
 
         // Check if the current user has permission to edit the post
         if (get_edit_post_link()) :
-        ?>
+            ?>
             <footer class="entry-footer">
                 <?php
                 // Display the edit post link

@@ -34,19 +34,19 @@ get_header(); ?>
 <section class="px-6 mx-auto max-w-7xl lg:px-8">
 
 	<!-- Video element -->
-	<div x-data="{ open: false, videoUrl: 'https://www.youtube.com/embed/_Ebzpj-2fGI?autoplay=1' }" class="relative flow-root">
+	<div x-data="{ open: false, videoUrl: 'https://www.youtube.com/embed/_Ebzpj-2fGI' }" class="relative flow-root" x-init="setTimeout(() => { $el.style.display = 'block'; }, 0);">
 		<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-2014.jpg" alt="Louisville 2014 National Gathering" width="2432" height="1368" class="rounded-lg shadow-2xl ring-1 ring-gray-900/10">
 		<div class="absolute inset-0 flex items-center justify-center">
-			<button @click="open = true, videoUrl = 'https://www.youtube.com/embed/_Ebzpj-2fGI?autoplay=1'" class="focus:outline-none">
+			<button @click="open = true, videoUrl = videoUrl + '?autoplay=1'" class="focus:outline-none">
 				<svg class="w-20 h-20 text-green-600" fill="currentColor" viewBox="0 0 84 84">
 					<circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
 					<path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
 				</svg>
 			</button>
 		</div>
-		<div x-show="open" @click.away="open = false, videoUrl = ''" class="fixed inset-0 z-50 flex items-center justify-center">
+		<div x-show="open" @click.away="open = false, videoUrl = 'https://www.youtube.com/embed/_Ebzpj-2fGI'" class="fixed inset-0 z-50 flex items-center justify-center" style="display: none;" x-init="if(open) { setTimeout(() => { $el.style.display = 'flex'; }, 0); }">
 			<div class="absolute inset-0 bg-black opacity-75"></div>
-			<button @click="open = false, videoUrl = ''" class="absolute top-0 right-0 m-6 focus:outline-none">
+			<button @click="open = false, videoUrl = 'https://www.youtube.com/embed/_Ebzpj-2fGI'" class="absolute top-0 right-0 m-6 focus:outline-none">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 				</svg>
@@ -107,6 +107,24 @@ get_header(); ?>
 
 <section class="px-6 mx-auto max-w-7xl lg:px-8">
 
+	<div class="py-24 bg-white sm:py-32">
+		<div class="px-6 mx-auto max-w-7xl lg:px-8">
+			<h2 class="text-lg font-semibold leading-8 text-center text-gray-900">Trusted by the world’s most innovative teams</h2>
+			<div class="grid items-center max-w-lg grid-cols-4 mx-auto mt-10 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+				<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
+				<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
+				<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
+				<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
+				<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+		<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-long-view.jpg" alt="" class="aspect-[5/2] w-full object-cover rounded-2xl">
+	</div>
+
 	<section class="mt-24 sm:mt-36">
 		<figure class="max-w-2xl mx-auto">
 			<blockquote class="text-xl font-semibold leading-8 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-9">
@@ -121,109 +139,18 @@ get_header(); ?>
 		</figure>
 	</section>
 
-	<div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-		<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-long-view.jpg" alt="" class="aspect-[5/2] w-full object-cover xl:rounded-3xl">
-	</div>
 
-	<!-- Values section -->
-	<div class="px-6 mx-auto mt-32 max-w-7xl sm:mt-40 lg:px-8">
+	<!-- Videos section -->
+	<div class="mx-auto mt-32 sm:mt-40">
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Highlights from past events</h2>
-			<p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+			<p class="mt-6 text-lg leading-7 text-gray-600">Relive the excitement and energy of previous events through a collection of remarkable keynote addresses, thought-provoking discussions, and memorable entrepreneur presentations.</p>
 		</div>
 
-		<ul role="list" class="grid grid-cols-2 mt-16 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
+		<?php
+		// Include the template part
+		get_template_part('template-parts/content/misc/event-video-modal'); ?>
 
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-			<li class="relative">
-				<div class="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
-					<img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-					<button type="button" class="absolute inset-0 focus:outline-none">
-						<span class="sr-only">View details for IMG_4985.HEIC</span>
-					</button>
-				</div>
-				<p class="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">IMG_4985.HEIC</p>
-				<p class="block text-sm font-medium text-gray-500 pointer-events-none">3.9 MB</p>
-			</li>
-
-		</ul>
-
-	</div>
 
 </section>
 
