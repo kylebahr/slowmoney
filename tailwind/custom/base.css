@@ -17,5 +17,13 @@ html {
 }
 
 body {
-	@apply font-sans bg-background text-foreground;
+	@apply bg-background text-foreground font-sans;
+}
+
+header img {
+	@apply h-8 w-auto !important;
+}
+
+footer img {
+	@apply h-7 !important;
 }

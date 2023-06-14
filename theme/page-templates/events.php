@@ -11,7 +11,7 @@ get_header(); ?>
 <section class="px-6 entry-header prose-a:text-green-600 prose-a:font-semibold hover:prose-a:text-green-500 lg:px-8">
 
 	<!-- Container for Header Content -->
-	<div class="relative max-w-2xl pt-20 pb-24 mx-auto text-center">
+	<div class="relative max-w-2xl pt-20 pb-16 mx-auto text-center">
 
 		<!-- Header Title -->
 		<h1 class="text-base font-semibold leading-7 text-green-700">Our events</h1>
@@ -61,7 +61,7 @@ get_header(); ?>
 
 
 
-	<section class="mt-24 sm:mt-36">
+	<section class="mt-28 sm:mt-40">
 		<figure class="max-w-2xl mx-auto">
 			<blockquote class="text-xl font-semibold leading-8 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-9">
 				<p>“What a pleasure to be part of a gathering that wasn’t just talking about the future but bending it! Slow Money is one of the keys to a healthy future.”</p>
@@ -77,7 +77,7 @@ get_header(); ?>
 
 </section>
 
-<div class="overflow-hidden bg-white mt-36">
+<section class="overflow-hidden bg-white mt-28 sm:mt-40">
 	<div class="px-6 mx-auto max-w-7xl lg:flex lg:px-8">
 		<div class="grid max-w-2xl grid-cols-1 mx-auto gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
 			<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
@@ -103,29 +103,32 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <section class="px-6 mx-auto max-w-7xl lg:px-8">
 
-	<div class="py-24 bg-white sm:py-32">
-		<div class="px-6 mx-auto max-w-7xl lg:px-8">
-			<h2 class="text-lg font-semibold leading-8 text-center text-gray-900">Trusted by the world’s most innovative teams</h2>
-			<div class="grid items-center max-w-lg grid-cols-4 mx-auto mt-10 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-				<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
-				<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
-				<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
-				<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
-				<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
-			</div>
+	<div class="mt-28 sm:mt-40">
+		<h2 class="text-lg font-semibold leading-8 text-center text-gray-900">Trusted by the world’s most innovative teams</h2>
+		<div class="grid items-center max-w-lg grid-cols-4 mx-auto mt-10 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
+			<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
 		</div>
 	</div>
 
+</section>
 
-	<div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-		<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-long-view.jpg" alt="" class="aspect-[5/2] w-full object-cover rounded-2xl">
-	</div>
 
-	<section class="mt-24 sm:mt-36">
+<section class="mt-28 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+	<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-long-view.jpg" alt="" class="aspect-[5/2] w-full object-cover xl:rounded-2xl">
+</section>
+
+<section class="px-6 mx-auto max-w-7xl lg:px-8">
+
+
+	<section class="mt-28 sm:mt-40">
 		<figure class="max-w-2xl mx-auto">
 			<blockquote class="text-xl font-semibold leading-8 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-9">
 				<p>“The two Slow Money gatherings I attended were so compelling, so inspiring, so empowering, and yet so down-to-earth that it was impossible to walk away unchanged.”</p>
@@ -141,10 +144,10 @@ get_header(); ?>
 
 
 	<!-- Videos section -->
-	<div class="mx-auto mt-32 sm:mt-40">
+	<div class="mx-auto mt-28 sm:mt-40">
 		<div class="max-w-2xl mx-auto text-center">
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Highlights from past events</h2>
-			<p class="mt-6 text-lg leading-7 text-gray-600">Relive the excitement and energy of previous events through a collection of remarkable keynote addresses, thought-provoking discussions, and memorable entrepreneur presentations.</p>
+			<p class="mt-6 text-lg leading-7 text-gray-600">Relive the excitement and energy of previous events.</p>
 		</div>
 
 		<?php
