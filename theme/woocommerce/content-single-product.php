@@ -33,7 +33,7 @@ if (post_password_required()) {
 }
 ?>
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class('mx-auto px-6 lg:max-w-7xl lg:px-8', $product); ?>>
-	<div class="lg:grid lg:grid-cols-7 lg:grid-rows-1 lg:gap-x-8 lg:gap-y-10 xl:gap-x-16">
+	<div class="border-b border-gray-200 lg:grid lg:grid-cols-7 lg:grid-rows-1 lg:gap-x-8 lg:gap-y-10 xl:gap-x-16 ">
 
 		<?php
 		/**
@@ -62,18 +62,6 @@ if (post_password_required()) {
 			do_action('woocommerce_single_product_summary');
 			?>
 		</div>
-
-		<?php
-		/**
-		 * Hook: woocommerce_after_single_product_summary.
-		 *
-		 * @hooked woocommerce_output_product_data_tabs - 10
-		 * @hooked woocommerce_upsell_display - 15
-		 * @hooked woocommerce_output_related_products - 20
-		 */
-		do_action('woocommerce_after_single_product_summary');
-		?>
-
 
 		<!-- Testimonials -->
 		<?php
@@ -117,6 +105,19 @@ if (post_password_required()) {
 		?>
 
 	</div>
+
+
+	<?php
+	/**
+	 * Hook: woocommerce_after_single_product_summary.
+	 *
+	 * @hooked woocommerce_output_product_data_tabs - 10
+	 * @hooked woocommerce_upsell_display - 15
+	 * @hooked woocommerce_output_related_products - 20
+	 */
+	do_action('woocommerce_after_single_product_summary');
+	?>
+
 </div>
 
 <?php do_action('woocommerce_after_single_product'); ?>

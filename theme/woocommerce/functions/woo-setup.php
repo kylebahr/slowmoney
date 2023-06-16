@@ -66,13 +66,6 @@ function remove_coupon_option_on_checkout()
 	remove_action('woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10); // Remove the action for displaying coupon form on checkout
 }
 
-
-/* Cart */
-// Changing the priority of "add to cart" button to come inside the "cta-wrap" div
-remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10); // Remove the original "add to cart" button
-add_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 6); // Add it back with a lower priority
-
-
 /* Shop */
 // Removing WooCommerce breadcrumbs from main content
 add_action('init', 'jk_remove_wc_breadcrumbs');
@@ -92,13 +85,39 @@ function woo_remove_product_tabs($tabs)
 	return $tabs; // Return modified tabs
 }
 
-// Adding a short description and a "cta-wrap" div into WooCommerce loop
+
+
+// Open "product-details" div before product title
+add_action('woocommerce_shop_loop_item_title', function () {
+	echo '<div class="product-details">';
+}, 5);
+
+// Close "product-details" div after the short description
+add_action('woocommerce_after_shop_loop_item_title', function () {
+	echo '</div>'; // this ends the "product-details" div
+}, 16);
+
+// Adding a short description after the price
 add_action('woocommerce_after_shop_loop_item_title', function () {
 	global $product; // Global variable for the current product
 
 	echo '<div class="mt-4 text-sm text-gray-600">' . $product->get_short_description() . '</div>'; // Print product short description
-	echo '<div class="flex items-center justify-start mt-4 gap-x-4 cta-wrap">'; // Start a new div with several CSS classes
 }, 15);
+
+// Open "cta-wrap" div before "Learn More" button
+add_action('woocommerce_after_shop_loop_item', function () {
+	echo '<div class="flex items-center mt-4 cta-wrap">'; // this starts the "cta-wrap" div
+}, 6);
+
+// Remove the "Add to Cart" button from the shop page
+add_action('woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1); // increased priority to ensure this runs first
+
+function remove_add_to_cart_buttons()
+{
+	if (is_product_category() || is_product() || is_shop()) {
+		remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10); // adjusted the priority to match the one used when the action was added
+	}
+}
 
 // Adding "Learn More" text after "Add to Cart" button inside the "cta-wrap" div
 add_action('woocommerce_after_shop_loop_item', function () {
@@ -106,13 +125,14 @@ add_action('woocommerce_after_shop_loop_item', function () {
 
 	$link = apply_filters('woocommerce_loop_product_link', get_the_permalink(), $product); // Get product link
 
-	echo '<a href="' . esc_url($link) . '" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>'; // Print the "Learn More" button with the product link
+	echo '<a href="' . esc_url($link) . '" class="font-semibold text-green-600 hover:text-green-500">Learn more <span aria-hidden="true">→</span></a>'; // Print the "Learn More" button with the product link
 }, 7);
 
-// Closing the "cta-wrap" div
+// Close "cta-wrap" div after "Learn More" button
 add_action('woocommerce_after_shop_loop_item', function () {
-	echo '</div>'; // this ends the custom-flex div
+	echo '</div>'; // this ends the "cta-wrap" div
 }, 8);
+
 
 // Adding a "Go back" link on WooCommerce single product page
 add_action('woocommerce_before_single_product', function () {

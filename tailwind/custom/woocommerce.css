@@ -150,10 +150,20 @@ li.wc_payment_method label {
 	@apply text-sm font-medium text-gray-900 !important;
 }
 
-.product-info .price {
+.woocommerce div.product .product-info .price {
 	@apply mt-1 block text-sm text-gray-500;
 }
 
 .cta-wrap a.button {
 	@apply btn-sm;
+}
+
+.woocommerce-shop img,
+.woocommerce-page .related img {
+	@apply h-auto w-full object-fill;
+}
+
+/* Related */
+.woocommerce .related ul {
+	@apply before:content-none;
 }
