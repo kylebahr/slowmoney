@@ -41,7 +41,7 @@ if (!$notices) {
 	$product_name = strip_tags($product_name); // Remove HTML tags from product name
 	?>
 
-	<div class="max-w-4xl p-4 mx-auto mt-5 rounded-md bg-green-50">
+	<div class="max-w-4xl p-4 mx-auto mt-5 rounded-md bg-green-50 not-prose">
 		<div class="flex">
 			<div class="flex-shrink-0">
 				<svg class="w-5 h-5 text-green-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

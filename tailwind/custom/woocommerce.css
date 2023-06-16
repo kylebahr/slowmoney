@@ -16,3 +16,144 @@
 .woocommerce-page div.product div.summary {
 	clear: both;
 }
+
+/* Cart */
+.woocommerce-cart article {
+	@apply mx-auto max-w-4xl px-4 sm:px-6 lg:px-8;
+}
+
+.woocommerce-cart .entry-header > div,
+.woocommerce-checkout .entry-header > div {
+	@apply pb-12;
+}
+
+.woocommerce-cart h1.kb-title,
+.woocommerce-checkout h1.kb-title {
+	@apply text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !important;
+}
+
+.woocommerce table.shop_table th,
+.woocommerce table.shop_table tbody th,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th {
+	@apply text-sm font-semibold leading-6 text-gray-900;
+}
+
+#add_payment_method table.cart img,
+.woocommerce-cart table.cart img,
+.woocommerce-checkout table.cart img {
+	@apply h-12 w-12 rounded-lg object-cover object-center sm:h-16 sm:w-16;
+}
+
+.woocommerce table.shop_table th {
+	@apply px-6;
+}
+
+.woocommerce table.shop_table td {
+	@apply px-6 py-6 sm:py-10;
+}
+
+.woocommerce table.shop_table td {
+	@apply py-6;
+}
+
+.woocommerce .quantity .qty {
+	@apply w-16;
+}
+
+#add_payment_method table.cart td,
+#add_payment_method table.cart th,
+.woocommerce-cart table.cart td,
+.woocommerce-cart table.cart th,
+.woocommerce-checkout table.cart td,
+.woocommerce-checkout table.cart th {
+	@apply align-top;
+}
+
+#add_payment_method .cart-collaterals .cart_totals table,
+.woocommerce-cart .cart-collaterals .cart_totals table,
+.woocommerce-checkout .cart-collaterals .cart_totals table {
+	@apply bg-gray-50;
+}
+
+#add_payment_method .cart-collaterals .cart_totals table td,
+#add_payment_method .cart-collaterals .cart_totals table th,
+.woocommerce-cart .cart-collaterals .cart_totals table td,
+.woocommerce-cart .cart-collaterals .cart_totals table th,
+.woocommerce-checkout .cart-collaterals .cart_totals table td,
+.woocommerce-checkout .cart-collaterals .cart_totals table th {
+	@apply align-middle;
+}
+
+.woocommerce .cart-collaterals .cart_totals,
+.woocommerce-page .cart-collaterals .cart_totals {
+	@apply w-full sm:w-2/3;
+}
+
+.woocommerce a.button.alt {
+	@apply rounded-md bg-green-600 px-3.5 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600;
+}
+
+.woocommerce .cart_totals table.shop_table td {
+	@apply text-right;
+}
+
+.woocommerce-shipping-calculator {
+	@apply prose-a:border-b-0 !important;
+}
+
+.woocommerce table.shop_table_responsive tr:nth-child(2n) td,
+.woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+	@apply bg-inherit;
+}
+
+/* Checkout */
+.woocommerce-checkout article {
+	@apply max-w-6xl;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+	@apply rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm;
+}
+
+.woocommerce form .form-row label {
+	@apply mb-1 block text-sm font-medium text-gray-700;
+}
+
+.woocommerce form .form-row {
+	@apply mb-6;
+}
+
+.woocommerce form #billing_address_1_field {
+	@apply mb-3;
+}
+
+.woocommerce form .form-row.place-order {
+	@apply mb-0;
+}
+
+input#wc-stripe-new-payment-method {
+	@apply h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-600 !important;
+}
+
+li.wc_payment_method label {
+	@apply mb-4 block text-lg font-medium text-gray-900;
+}
+
+.woocommerce-checkout .select2-container--default .select2-selection--single {
+	@apply rounded-md border-gray-300 align-middle text-sm shadow-sm;
+}
+
+/* Shop */
+.product-info h2 {
+	@apply text-sm font-medium text-gray-900 !important;
+}
+
+.product-info .price {
+	@apply mt-1 block text-sm text-gray-500;
+}
+
+.cta-wrap a.button {
+	@apply btn-sm;
+}

@@ -32,7 +32,7 @@ if (post_password_required()) {
 	return;
 }
 ?>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class('mx-auto py-16 px-6 sm:py-24 lg:max-w-7xl lg:px-8', $product); ?>>
+<div id="product-<?php the_ID(); ?>" <?php wc_product_class('mx-auto px-6 lg:max-w-7xl lg:px-8', $product); ?>>
 	<div class="lg:grid lg:grid-cols-7 lg:grid-rows-1 lg:gap-x-8 lg:gap-y-10 xl:gap-x-16">
 
 		<?php
