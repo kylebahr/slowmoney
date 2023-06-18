@@ -167,3 +167,41 @@ li.wc_payment_method label {
 .woocommerce .related ul {
 	@apply before:content-none;
 }
+
+/* Notices */
+.woocommerce .button.wc-forward {
+	@apply bg-inherit p-0 text-sm after:pl-1 after:content-['→'] hover:bg-inherit hover:text-green-600;
+}
+
+.woocommerce-notices-wrapper {
+	@apply mx-auto max-w-7xl px-6 lg:px-8;
+}
+
+.woocommerce-page .woocommerce-message {
+	@apply rounded-xl border-t-0 bg-green-50 text-sm  before:text-green-600 before:content-['\e015'];
+}
+
+.woocommerce-page .woocommerce-message a {
+	@apply font-semibold text-green-800 !important;
+}
+
+.woocommerce-page .woocommerce-error {
+	@apply mb-0 rounded-xl border-t-0 bg-red-50 text-sm before:text-red-600 before:content-['\e016'];
+}
+
+.woocommerce-checkout .woocommerce-error {
+	@apply mt-6;
+}
+
+.woocommerce-page .woocommerce-error a {
+	@apply font-semibold text-red-800 !important;
+}
+
+/* Thank You */
+.woocommerce-order-received article {
+	@apply mx-auto w-full max-w-none;
+}
+
+.woocommerce-order-received #content {
+	@apply mx-auto max-w-7xl;
+}

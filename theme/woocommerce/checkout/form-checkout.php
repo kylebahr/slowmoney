@@ -30,7 +30,7 @@ if (!$checkout->is_registration_enabled() && $checkout->is_registration_required
 
 ?>
 
-<form name="checkout" method="post" class="lg:grid lg:grid-cols-2 lg:gap-x-16 xl:gap-x-24 checkout woocommerce-checkout" action="<?php echo esc_url(wc_get_checkout_url()); ?>" enctype="multipart/form-data">
+<form name="checkout" method="post" class="pt-8 lg:grid lg:grid-cols-2 lg:gap-x-16 xl:gap-x-24 checkout woocommerce-checkout" action="<?php echo esc_url(wc_get_checkout_url()); ?>" enctype="multipart/form-data">
 
 	<?php if ($checkout->get_checkout_fields()) : ?>
 

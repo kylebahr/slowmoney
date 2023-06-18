@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Show messages
+ * Show error messages
  *
- * This template can be overridden by copying it to yourtheme/woocommerce/notices/success.php.
+ * This template can be overridden by copying it to yourtheme/woocommerce/notices/error.php.
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
@@ -25,9 +25,10 @@ if (!$notices) {
 }
 
 ?>
-
-<?php foreach ($notices as $notice) : ?>
-	<div class="text-sm text-green-700 border-t-0 woocommerce-message not-prose rounded-xl bg-green-50" <?php echo wc_get_notice_data_attr($notice); ?> role="alert">
-		<p><?php echo wc_kses_notice($notice['notice']); ?></p>
-	</div>
-<?php endforeach; ?>
+<div class="text-sm text-red-700 border-t-0 woocommerce-error not-prose rounded-xl bg-red-50" role="alert">
+	<?php foreach ($notices as $notice) : ?>
+		<p<?php echo wc_get_notice_data_attr($notice); ?>>
+			<?php echo wc_kses_notice($notice['notice']); ?>
+			</p>
+		<?php endforeach; ?>
+</div>

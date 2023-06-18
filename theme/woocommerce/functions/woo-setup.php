@@ -5,6 +5,14 @@
  */
 
 /* Setup */
+
+// Removing WooCommerce breadcrumbs from main content
+add_action('init', 'jk_remove_wc_breadcrumbs');
+function jk_remove_wc_breadcrumbs()
+{
+	remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); // Remove the action for showing breadcrumbs
+}
+
 // Adding support for WooCommerce and WooCommerce product gallery slider after the theme setup
 add_action('after_setup_theme', 'yourtheme_woocommerce_support');
 function yourtheme_woocommerce_support()
@@ -67,13 +75,6 @@ function remove_coupon_option_on_checkout()
 }
 
 /* Shop */
-// Removing WooCommerce breadcrumbs from main content
-add_action('init', 'jk_remove_wc_breadcrumbs');
-function jk_remove_wc_breadcrumbs()
-{
-	remove_action('woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0); // Remove the action for showing breadcrumbs
-}
-
 // Removing specific tabs from WooCommerce product tabs
 add_filter('woocommerce_product_tabs', 'woo_remove_product_tabs', 98);
 function woo_remove_product_tabs($tabs)
@@ -147,4 +148,4 @@ add_action('woocommerce_before_single_product', function () {
             </a>
         </nav>
     </div>';
-});
+}, 0); // 0 specifies the priority, lower numbers run first.
