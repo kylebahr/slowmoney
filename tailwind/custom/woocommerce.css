@@ -163,6 +163,11 @@ li.wc_payment_method label {
 	@apply h-auto w-full object-fill;
 }
 
+.woocommerce-shop footer img,
+.woocommerce-page footer img {
+	@apply w-auto;
+}
+
 /* Related */
 .woocommerce .related ul {
 	@apply before:content-none;

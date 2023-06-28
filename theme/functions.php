@@ -441,3 +441,19 @@ function mytheme_sanitize_checkbox($checked)
 
 // Require WooCommerce functions
 require get_template_directory() . '/woocommerce/functions/woo-setup.php';
+
+// Wrap all post images in figure element
+function wrap_images_with_figure($html, $id, $caption, $title, $align, $url, $size, $alt)
+{
+	// If there's a caption, return the HTML as is
+	if ($caption) {
+		return $html;
+	}
+	// If there's no caption, wrap the image in a <figure> tag
+	else {
+		$image_url = wp_get_attachment_url($id);
+		$image = '<img src="' . $image_url . '" alt="' . $alt . '" class="align' . $align . ' size-' . $size . ' wp-image-' . $id . '"/>';
+		return '<figure class="post-image">' . $image . '</figure>';
+	}
+}
+add_filter('image_send_to_editor', 'wrap_images_with_figure', 10, 8);

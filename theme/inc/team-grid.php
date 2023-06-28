@@ -11,7 +11,7 @@ function my_custom_team_grid()
 
 	// Fetch the ACF data from the specific post
 	if (function_exists('have_rows') && have_rows('team_members', $post_id)) :
-		echo '<ul role="list" class="five-col-grid">';
+		echo '<ul role="list" class="four-col-grid">';
 		while (have_rows('team_members', $post_id)) :
 			the_row();
 

@@ -44,9 +44,9 @@ wp_reset_postdata();
 		<thead class="bg-white">
 			<tr>
 				<th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-3">Name</th>
-				<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Location</th>
+				<th scope="col" class="hidden sm:table-cell px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Location</th>
 				<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Website</th>
-				<th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Type</th>
+				<th scope="col" class="hidden lg:table-cell px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Type</th>
 			</tr>
 		</thead>
 		<tbody class="bg-white">
@@ -74,9 +74,9 @@ wp_reset_postdata();
 
 					echo "<tr class='border-t border-gray-300' $hideAttribute>";
 					echo '<td class="py-4 pl-4 pr-3 text-sm font-medium text-gray-900 whitespace-nowrap sm:pl-3">' . $entry['name'] . '</td>';
-					echo '<td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap">' . $entry['location'] . '</td>';
+					echo '<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell whitespace-nowrap">' . $entry['location'] . '</td>';
 					echo '<td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap"><a href="' . $entry['website'] . '" class="font-medium text-green-600 hover:text-green-900" target="_blank">View website</a></td>';
-					echo '<td class="px-3 py-4 text-sm text-gray-500 whitespace-nowrap"><span class="inline-flex items-center px-2 py-1 text-xs font-medium text-gray-700 rounded-md bg-gray-50 ring-1 ring-inset ring-gray-600/20">' . $entry['type'] . '</span></td>';
+					echo '<td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell whitespace-nowrap"><span class="inline-flex items-center px-2 py-1 text-xs font-medium text-gray-700 rounded-md bg-gray-50 ring-1 ring-inset ring-gray-600/20">' . $entry['type'] . '</span></td>';
 					echo '</tr>';
 				endforeach;
 			endforeach;

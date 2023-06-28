@@ -81,9 +81,11 @@ get_header(); ?>
 	<div class="px-6 mx-auto max-w-7xl lg:flex lg:px-8">
 		<div class="grid max-w-2xl grid-cols-1 mx-auto gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
 			<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
-				<p class="mt-6 text-xl leading-8 text-gray-600">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
-				<p class="mt-6 text-base leading-7 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Convening and inspiring</h2>
+				<p class="mt-6 text-xl leading-8 text-gray-600">Bringing together a broad spectrum of stakeholders, from fiduciaries to farmers, is essential to the approach Slow Money takes in creating an environment for nuanced, authentic public dialogues about food, investing, and culture.
+
+				</p>
+				<p class="mt-6 text-base leading-7 text-gray-600">More than a decade after our inaugural national gathering in 2009, these conversations have proven their transformative power. Slow Money events, both local and national, have welcomed tens of thousands of attendees across numerous communities. These gatherings serve as a vital complement to the local Slow Money networks and investment clubs.</p>
 			</div>
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<div class="flex-auto w-0 lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
@@ -108,13 +110,13 @@ get_header(); ?>
 <section class="px-6 mx-auto max-w-7xl lg:px-8">
 
 	<div class="mt-28 sm:mt-40">
-		<h2 class="text-lg font-semibold leading-8 text-center text-gray-900">Trusted by the world’s most innovative teams</h2>
-		<div class="grid items-center max-w-lg grid-cols-4 mx-auto mt-10 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
-			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
-			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
-			<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
-			<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+		<h2 class="text-lg font-semibold leading-8 text-center text-gray-900">Our events have garnered significant media coverage</h2>
+		<div class="grid items-center max-w-lg grid-cols-4 mx-auto mt-12 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-12 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/nyt.png" alt="Transistor" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/dp.png" alt="Reform" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/barrons.png" alt="Tuple" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/wsj.png" alt="SavvyCal" width="158" height="48">
+			<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/sfc.png" alt="Statamic" width="158" height="48">
 		</div>
 	</div>
 

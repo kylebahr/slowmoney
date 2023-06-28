@@ -21,7 +21,6 @@ get_header(); ?>
 
 		<div class="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
 
-
 			<div x-data="{ open: false, videoUrl: 'https://www.youtube.com/embed/nlqFi88LNo8' }" class="relative flow-root" x-init="setTimeout(() => { $el.style.display = 'block'; }, 0);">
 				<span class="sr-only">Watch our video to learn more</span>
 				<img src="http://localhost:3000/wp-content/uploads/2023/06/two-roots-groups@2x.jpg" alt="Two Roots Farm" class="aspect-[7/5] mx-auto w-[34rem] max-w-full object-cover rounded-2xl">
@@ -60,13 +59,13 @@ get_header(); ?>
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 					<div class="flex self-end justify-end flex-none order-first w-64 lg:w-auto">
-						<img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="http://localhost:10035/wp-content/uploads/2023/06/jared.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="flex justify-end flex-auto w-96 lg:w-auto lg:flex-none">
 						<img src="http://localhost:3000/wp-content/uploads/2023/06/soil-boulder-group.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-						<img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+						<img src="http://localhost:10035/wp-content/uploads/2023/06/Willow-Tara-Brian.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 				</div>
 			</div>
@@ -80,29 +79,29 @@ get_header(); ?>
 
 	<div class="bg-white mt-28 sm:mt-40">
 		<div class="max-w-2xl mx-auto lg:mx-0">
-			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Since 2010, more than $80 million has flowed to over 800 organic farms and local food enterprises.</h2>
-			<p class="mt-6 text-base leading-7 text-gray-600">Local Slow Money groups are organized as informal networks and/or investment clubs. We celebrate a diversity of approaches, including everything from 0% microloans to low-interest loans of a $100,000 or more.</p>
+			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Since 2010, more than $80 million has flowed to over 1,000 organic farms and local food enterprises.</h2>
+			<p class="mt-6 text-base leading-7 text-gray-600">Cheese makers, artisan bakers, heirloom seed companies, compost purveyors, small diversified organic farms, grass-fed beef producers, goat dairies, yogurt companies, farm-to-table restaurants, probiotic pickleteers, community kitchens, regional grain mills, local distributors, inner city cooperatives and more.</p>
 		</div>
 		<div class="flex flex-col max-w-2xl gap-8 mx-auto mt-16 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
 			<div class="flex flex-col-reverse justify-between p-8 gap-x-16 gap-y-8 rounded-2xl bg-gray-50 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-				<p class="flex-none text-3xl font-bold tracking-tight text-gray-900">250+</p>
+				<p class="flex-none text-3xl font-bold tracking-tight text-gray-900">5,000+</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-					<p class="text-lg font-semibold tracking-tight text-gray-900">Users on the platform</p>
-					<p class="mt-2 text-base leading-7 text-gray-600">Vel labore deleniti veniam consequuntur sunt nobis.</p>
+					<p class="text-lg font-semibold tracking-tight text-gray-900">Slow Money investors</p>
+					<p class="mt-2 text-base leading-7 text-gray-600">These aren't your traditional investors. They're putting money to work not with an eye toward how much money they might make, but toward preserving local food systems and soil fertility.</p>
 				</div>
 			</div>
 			<div class="flex flex-col-reverse justify-between p-8 bg-neutral-900 gap-x-16 gap-y-8 rounded-2xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
-				<p class="flex-none text-3xl font-bold tracking-tight text-white">$80 million</p>
+				<p class="flex-none text-3xl font-bold tracking-tight text-white">$80+ million</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-					<p class="text-lg font-semibold tracking-tight text-white">We’re proud that our customers have made over $8 billion in total revenue.</p>
-					<p class="mt-2 text-base leading-7 text-gray-400">Eu duis porta aliquam ornare. Elementum eget magna egestas.</p>
+					<p class="text-lg font-semibold tracking-tight text-white">Has flowed to small organic farms and local food businesses.</p>
+					<p class="mt-2 text-base leading-7 text-gray-400">Via Slow Money local groups in dozens of communities around the U.S., and a few in Canada, France and Australia. Volunteer led, with no centralized fund, reflecting the grassroots nature of the Slow Money movement.</p>
 				</div>
 			</div>
 			<div class="flex flex-col-reverse justify-between p-8 bg-green-600 gap-x-16 gap-y-8 rounded-2xl sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-				<p class="flex-none text-3xl font-bold tracking-tight text-white">401,093</p>
+				<p class="flex-none text-3xl font-bold tracking-tight text-white">1,000+</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-					<p class="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
-					<p class="mt-2 text-base leading-7 text-green-200">Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.</p>
+					<p class="text-lg font-semibold tracking-tight text-white">Small food enterprises funded</p>
+					<p class="mt-2 text-base leading-7 text-green-200">No one investment technique or instrument, although the vast majority of the funding was in the form of below market loans. 0%. 3%. 5%. Going to folks who likely wouldn't have access to bank financing at any cost.</p>
 				</div>
 			</div>
 		</div>
@@ -116,7 +115,7 @@ get_header(); ?>
 			<!-- Title -->
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Active local groups</h2>
 			<!-- Description -->
-			<p class="mt-6 text-base leading-7 prose text-gray-600">Local are organized as informal networks and investment clubs. We celebrate a diversity of approaches, including everything from 0% microloans to low-interest loans of a $100,000 or more. If you're interested in starting a local group, please <a href="/support/contact/"> contact us</a>.</p>
+			<p class="mt-6 text-base leading-7 prose text-gray-600">Local groups are organized as informal networks and investment clubs. We celebrate a diversity of approaches, including everything from 0% microloans to low-interest loans of a $100,000 or more. If you're interested in starting a local group, please <a href="/support/contact/"> contact us</a>.</p>
 		</div>
 		<div class="mt-8">
 			<div class="flow-root mt-8">
@@ -133,12 +132,11 @@ get_header(); ?>
 		</div>
 	</div>
 
-
-	<!-- Blog section -->
-	<?php get_template_part('template-parts/components/blog-section'); ?>
-
-
 </section>
+
+
+<!-- Blog section -->
+<?php get_template_part('template-parts/components/blog-section'); ?>
 
 
 <?php

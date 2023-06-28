@@ -25,7 +25,7 @@ if (empty($product) || !$product->is_visible()) {
 	return;
 }
 ?>
-<li <?php wc_product_class('flex flex-col overflow-hidden bg-white rounded-lg shadow ring-1 ring-gray-900/5', $product); ?>>
+<li <?php wc_product_class('flex flex-col overflow-hidden transition-colors transition-shadow duration-200 ease-in bg-white rounded-lg shadow duration-400 hover:shadow-xl ring-1 ring-gray-900/5', $product); ?>>
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
@@ -42,7 +42,7 @@ if (empty($product) || !$product->is_visible()) {
 	 */
 	do_action('woocommerce_before_shop_loop_item_title');
 
-	echo '<div class="flex flex-col justify-between flex-grow p-6 text-sm product-info">';
+	echo '<div class="flex flex-col justify-between flex-grow p-6 text-sm gap-y-8 product-info">';
 
 	/**
 	 * Hook: woocommerce_shop_loop_item_title.

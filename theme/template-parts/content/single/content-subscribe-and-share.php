@@ -20,7 +20,7 @@ $facebookSVG = $upload_dir['baseurl'] . '/2023/06/facebook-color.svg';
 $linkedinSVG = $upload_dir['baseurl'] . '/2023/06/linkedin-color.svg';
 
 // Combine the newsletter form and social buttons in one container
-echo '<section class="flex flex-col items-start justify-between max-w-full mt-16 not-prose md:flex-row sm:mx-auto">';
+echo '<div class="flex flex-col items-start justify-between max-w-full mt-16 not-prose md:flex-row sm:mx-auto">';
 
 ?>
 
@@ -39,4 +39,4 @@ $socialButtons .= '<a class="cursor-pointer kb-link kb-linkedin" :href="' . $lin
 $socialButtons .= '</div>';
 
 echo $socialButtons; // print the buttons
-echo '</section>'; // close the container
+echo '</div>'; // close the container

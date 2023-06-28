@@ -26,7 +26,7 @@
 
 	<?php wp_body_open(); ?>
 
-	<div class="bg-white">
+	<div>
 		<a href="#content" class="sr-only"><?php esc_html_e('Skip to content', '_kb'); ?></a>
 
 		<?php get_template_part('template-parts/layout/header', 'content'); ?>

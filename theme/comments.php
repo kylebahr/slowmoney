@@ -22,7 +22,7 @@ if (post_password_required()) {
     <?php
     // If there are comments, display them
     if (have_comments()) :
-        ?>
+    ?>
         <div class="mt-10">
             <h2 class="mb-5 text-xl font-extrabold md:mb-10">
                 <?php
@@ -60,14 +60,14 @@ if (post_password_required()) {
             <?php
             // If comments are closed, display a message
             if (!comments_open()) :
-                ?>
+            ?>
                 <p class="text-red-500"><?php esc_html_e('Comments are closed.', '_kb'); ?></p>
-                <?php
+            <?php
             endif;
             ?>
 
         </div>
-        <?php
+    <?php
     endif;
     ?>
 

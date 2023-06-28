@@ -14,7 +14,13 @@ get_template_part('template-parts/layout/banner-content');
 ?>
 
 <!-- Start of the site header -->
-<header class="bg-white" x-data="{ open: false }">
+<header class="<?php
+				if (is_page_template('page-templates/publications.php') || is_shop()) {
+					echo 'bg-gray-50';
+				} else {
+					echo 'bg-white';
+				}
+				?>" x-data="{ open: false }">
 	<!-- The navigation section -->
 	<nav class="relative flex items-center justify-between p-6 mx-auto max-w-7xl gap-x-6 lg:px-8" aria-label="Global">
 		<div class="absolute inset-x-0 bottom-0 h-px bg-slate-900/5"></div>

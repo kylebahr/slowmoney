@@ -18,6 +18,11 @@
 
 defined('ABSPATH') || exit;
 
+// Add background CSS class by filter
+add_filter('body_class', function ($classes) {
+	return array_merge($classes, array('bg-gray-50'));
+});
+
 get_header('shop');
 
 /**
@@ -38,11 +43,7 @@ do_action('woocommerce_before_main_content');
 
 		<?php if (apply_filters('woocommerce_show_page_title', true)) : ?>
 			<h1 class="text-4xl font-extrabold tracking-tight kb-title text-slate-900 sm:text-5xl"><?php woocommerce_page_title(); ?></h1>
-			<h2 class="mt-4 text-lg leading-7 text-slate-600">Temporibus eos totam in dolorum. Nemo vel facere repellendus ut eos dolores similique.</h2>
-
-			<!-- Newsletter Signup -->
-			<?php get_template_part('template-parts/content/entry-header/entry-header-newsletter'); ?>
-
+			<h2 class="mt-4 text-lg leading-7 text-slate-600">Slow Money founder Woody Tasch has written four books, each of which has been heralded.</h2>
 
 		<?php endif; ?>
 
