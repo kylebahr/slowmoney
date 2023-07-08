@@ -99,7 +99,7 @@ entry_title(); ?>
             <p class="text-base">“The Principles are the path to a new, healthy food system. Sign them and be counted!”</p>
         </blockquote>
         <figcaption class="flex items-center mt-6 gap-x-4">
-            <img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/06/greg.jpg" alt="">
+            <img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/06/greg.jpg" alt="">
             <div>
                 <div class="font-semibold text-gray-900">Greg Steltenpohl</div>
                 <div class="text-gray-600">Founder, Odwalla</div>

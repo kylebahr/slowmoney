@@ -23,27 +23,27 @@
 					<!-- Images at different positions for desktop and mobile view -->
 					<div class="flex-none pt-32 ml-auto space-y-8 w-44 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-60">
 						<div class="relative">
-							<img src="http://localhost:10035/wp-content/uploads/2023/06/centralgrazing.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/06/centralgrazing.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 					</div>
 					<div class="flex-none mr-auto space-y-8 w-44 sm:mr-0 sm:pt-52 lg:pt-20">
 						<div class="relative">
-							<img src="http://localhost:10035/wp-content/uploads/2023/06/jack.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/06/jack.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 						<div class="relative">
-							<img src="http://localhost:10035/wp-content/uploads/2023/06/zoe.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/06/zoe.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 					</div>
 					<div class="flex-none pt-32 space-y-8 w-44 sm:pt-0">
 						<div class="relative">
-							<img src="http://localhost:10035/wp-content/uploads/2023/06/revision-family.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/06/revision-family.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 						<div class="relative">
-							<img src="http://localhost:10035/wp-content/uploads/2023/06/skokan.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/06/skokan.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 					</div>

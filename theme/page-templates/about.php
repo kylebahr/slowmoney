@@ -17,7 +17,7 @@ get_header();
 
 <!-- Image section with a group photo -->
 <section class="mt-16 xl:mx-auto xl:max-w-7xl xl:px-8">
-	<img src="<?php echo esc_url('http://localhost:10035/wp-content/uploads/2023/06/group-photo.jpg'); ?>" alt="Group Photo" class="aspect-[9/4] w-full object-cover xl:rounded-2xl">
+	<img src="<?php echo esc_url('/wp-content/uploads/2023/06/group-photo.jpg'); ?>" alt="Group Photo" class="aspect-[9/4] w-full object-cover xl:rounded-2xl">
 </section>
 
 <!-- Main section -->
@@ -60,20 +60,20 @@ get_header();
 	<section class="grid grid-cols-1 grid-rows-2 gap-2 mt-16 overflow-hidden md:grid-cols-12 md:grid-rows-1 xl:mx-auto xl:max-w-7xl xl:rounded-2xl">
 		<!-- First row -->
 		<div class="md:col-span-5">
-			<img src="http://localhost:10035/wp-content/uploads/2023/06/ollin-web.jpg" alt="" class="object-cover w-full h-full aspect-[9/8]">
+			<img src="/wp-content/uploads/2023/06/ollin-web.jpg" alt="" class="object-cover w-full h-full aspect-[9/8]">
 		</div>
 		<div class="md:col-span-7">
-			<img src="http://localhost:10035/wp-content/uploads/2023/06/sheep.jpg" alt="" class="aspect-[18/8] object-cover w-full h-full aspect-h-8">
+			<img src="/wp-content/uploads/2023/06/sheep.jpg" alt="" class="aspect-[18/8] object-cover w-full h-full aspect-h-8">
 		</div>
 		<!-- Second row -->
 		<div class="md:col-span-3">
-			<img src="http://localhost:10035/wp-content/uploads/2023/06/tworootsweb.jpg" alt="" class="object-cover w-full h-full">
+			<img src="/wp-content/uploads/2023/06/tworootsweb.jpg" alt="" class="object-cover w-full h-full">
 		</div>
 		<div class="md:col-span-4">
-			<img src="http://localhost:10035/wp-content/uploads/2023/06/carol.jpg" alt="" class="object-cover w-full h-full">
+			<img src="/wp-content/uploads/2023/06/carol.jpg" alt="" class="object-cover w-full h-full">
 		</div>
 		<div class="md:col-span-5">
-			<img src="http://localhost:10035/wp-content/uploads/2023/06/juniper-farm.jpg" alt="" class="object-cover w-full h-full">
+			<img src="/wp-content/uploads/2023/06/juniper-farm.jpg" alt="" class="object-cover w-full h-full">
 		</div>
 	</section>
 
@@ -121,7 +121,7 @@ get_header();
 			</div>
 			<div class="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
 				<p>In the ensuing decade, $80+ million flowed to more than 800 small organic farms and local food businesses via volunteer-led activities in dozens of communities. Tens of thousands attended local, national and virtual slow money events. A variety of local approaches were pursued, from pitch fests, informal networks, and investment clubs to peer-to-peer lending, all pointing towards the opportunity to grow a broader grassroots movement. </p>
-				<img class="object-cover w-full h-auto mt-12 rounded-xl" src="http://localhost:10035/wp-content/uploads/2023/06/sm-book-mockup@2x.jpg" alt="Placeholder">
+				<img class="object-cover w-full h-auto mt-12 rounded-xl" src="/wp-content/uploads/2023/06/sm-book-mockup@2x.jpg" alt="Placeholder">
 				<p class="mt-8">The vision behind the slow money movement is encapsulated in the <a class="font-semibold text-green-600" href="/slow-money-principles/">Slow Money Principles</a>, which revolve around nurture capital, care of the commons, sense of place, diversity and nonviolence. This is a framework for public conversation and cooperative action, informed by the process of bringing some of our money back down to earth, putting it to work in things that we understand, near where we live, starting with food. </p>
 			</div>
 		</div>

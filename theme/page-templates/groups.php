@@ -59,13 +59,13 @@ get_header(); ?>
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 					<div class="flex self-end justify-end flex-none order-first w-64 lg:w-auto">
-						<img src="http://localhost:10035/wp-content/uploads/2023/06/jared.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/06/jared.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="flex justify-end flex-auto w-96 lg:w-auto lg:flex-none">
 						<img src="http://localhost:3000/wp-content/uploads/2023/06/soil-boulder-group.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-						<img src="http://localhost:10035/wp-content/uploads/2023/06/Willow-Tara-Brian.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/06/Willow-Tara-Brian.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 				</div>
 			</div>

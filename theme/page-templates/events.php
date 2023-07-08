@@ -35,7 +35,7 @@ get_header(); ?>
 
 	<!-- Video element -->
 	<div x-data="{ open: false, videoUrl: 'https://www.youtube.com/embed/_Ebzpj-2fGI' }" class="relative flow-root" x-init="setTimeout(() => { $el.style.display = 'block'; }, 0);">
-		<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-2014.jpg" alt="Louisville 2014 National Gathering" width="2432" height="1368" class="rounded-lg shadow-2xl ring-1 ring-gray-900/10">
+		<img src="/wp-content/uploads/2023/06/louisville-2014.jpg" alt="Louisville 2014 National Gathering" width="2432" height="1368" class="rounded-lg shadow-2xl ring-1 ring-gray-900/10">
 		<div class="absolute inset-0 flex items-center justify-center">
 			<button @click="open = true, videoUrl = videoUrl + '?autoplay=1'" class="focus:outline-none">
 				<svg class="w-20 h-20 text-green-600" fill="currentColor" viewBox="0 0 84 84">
@@ -89,17 +89,17 @@ get_header(); ?>
 			</div>
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<div class="flex-auto w-0 lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-					<img src="http://localhost:10035/wp-content/uploads/2023/06/ng1.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+					<img src="/wp-content/uploads/2023/06/ng1.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 				</div>
 				<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 					<div class="flex self-end justify-end flex-none order-first w-64 lg:w-auto">
-						<img src="http://localhost:10035/wp-content/uploads/2023/06/joelsalatin.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/06/joelsalatin.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="flex justify-end flex-auto w-96 lg:w-auto lg:flex-none">
-						<img src="http://localhost:10035/wp-content/uploads/2023/06/harvestfestival.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/06/harvestfestival.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-						<img src="http://localhost:10035/wp-content/uploads/2023/06/beetcoin-winners.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/06/beetcoin-winners.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 				</div>
 			</div>
@@ -112,11 +112,11 @@ get_header(); ?>
 	<div class="mt-28 sm:mt-40">
 		<h2 class="text-lg font-semibold leading-8 text-center text-gray-900">Our events have garnered significant media coverage</h2>
 		<div class="grid items-center max-w-lg grid-cols-4 mx-auto mt-12 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-12 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/nyt.png" alt="Transistor" width="158" height="48">
-			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/dp.png" alt="Reform" width="158" height="48">
-			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/barrons.png" alt="Tuple" width="158" height="48">
-			<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/wsj.png" alt="SavvyCal" width="158" height="48">
-			<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="http://localhost:10035/wp-content/uploads/2023/06/sfc.png" alt="Statamic" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="/wp-content/uploads/2023/06/nyt.png" alt="Transistor" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="/wp-content/uploads/2023/06/dp.png" alt="Reform" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 lg:col-span-1" src="/wp-content/uploads/2023/06/barrons.png" alt="Tuple" width="158" height="48">
+			<img class="object-contain w-full col-span-2 max-h-12 sm:col-start-2 lg:col-span-1" src="/wp-content/uploads/2023/06/wsj.png" alt="SavvyCal" width="158" height="48">
+			<img class="object-contain w-full col-span-2 col-start-2 max-h-12 sm:col-start-auto lg:col-span-1" src="/wp-content/uploads/2023/06/sfc.png" alt="Statamic" width="158" height="48">
 		</div>
 	</div>
 
@@ -124,7 +124,7 @@ get_header(); ?>
 
 
 <section class="mt-28 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-	<img src="http://localhost:10035/wp-content/uploads/2023/06/louisville-long-view.jpg" alt="" class="aspect-[5/2] w-full object-cover xl:rounded-2xl">
+	<img src="/wp-content/uploads/2023/06/louisville-long-view.jpg" alt="" class="aspect-[5/2] w-full object-cover xl:rounded-2xl">
 </section>
 
 <section class="px-6 mx-auto max-w-7xl lg:px-8">
