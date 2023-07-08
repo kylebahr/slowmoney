@@ -1,197 +1,150 @@
-<div class="relative mt-32 bg-white isolate sm:mt-48">
-	<!-- Gradient overlay -->
-	<div class="absolute inset-x-0 overflow-hidden -translate-y-1/2 top-1/2 -z-10 transform-gpu opacity-30 blur-3xl" aria-hidden="true">
-		<!-- Gradient shape -->
-		<div class="ml-[max(50%,38rem)] aspect-[1313/771] w-[82.0625rem] bg-gradient-to-tr from-[#0077b6] to-[#52b788]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-	</div>
-	<!-- Gradient overlay -->
-	<div class="absolute inset-x-0 top-0 flex pt-32 overflow-hidden opacity-25 -z-10 transform-gpu blur-3xl sm:pt-40 xl:justify-end" aria-hidden="true">
-		<!-- Gradient shape -->
-		<div class="ml-[-22rem] aspect-[1313/771] w-[82.0625rem] flex-none origin-top-right rotate-[30deg] bg-gradient-to-tr from-[#0077b6] to-[#52b788] xl:ml-0 xl:mr-[calc(50%-12rem)]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-	</div>
+<div class="px-6 mx-auto mt-20 max-w-7xl lg:px-8 sm:mt-32 md:mt-40">
+	<h2 class="sr-only">Testimonials</h2>
+	<div class="flow-root max-w-2xl mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none">
+		<div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
 
-	<div class="px-6 mx-auto max-w-7xl lg:px-8">
-		<div class="max-w-xl mx-auto text-center">
-			<h2 class="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
-			<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">We have worked with thousands of amazing people</p>
-		</div>
-
-		<!-- Grid for testimonials -->
-		<div class="grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 mx-auto mt-16 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-
-			<!-- Testimonial with blockquote and caption -->
-			<figure class="hidden col-span-2 sm:block sm:rounded-2xl sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1">
-				<blockquote class="p-12 text-xl font-semibold leading-8 tracking-tight text-gray-900">
-					<p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.”</p>
-				</blockquote>
-				<figcaption class="flex items-center px-6 py-4 border-t gap-x-4 border-gray-900/10">
-					<img class="flex-none w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=1024&amp;h=1024&amp;q=80" alt="">
-					<div class="flex-auto">
-						<div class="font-semibold">Brenna Goyette</div>
-						<div class="text-gray-600">@brennagoyette</div>
-					</div>
-					<img class="flex-none w-auto h-10" src="https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg" alt="">
-				</figcaption>
-			</figure>
-
-			<!-- Testimonial with blockquote and caption -->
-			<div class="space-y-8 xl:contents xl:space-y-0">
-				<div class="space-y-8 xl:row-span-2">
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Leslie Alexander</div>
-								<div class="text-gray-600">@lesliealexander</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Quia dolorem qui et. Atque quo aliquid sit eos officia. Dolores similique laboriosam quaerat cupiditate.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Michael Foster</div>
-								<div class="text-gray-600">@michaelfoster</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Consequatur ut atque. Itaque nostrum molestiae id veniam eos cumque. Ut quia eum fugit laborum autem inventore ut voluptate.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Dries Vincent</div>
-								<div class="text-gray-600">@driesvincent</div>
-							</div>
-						</figcaption>
-					</figure>
-
-				</div>
-
-				<div class="space-y-8 xl:row-start-1">
-
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Lindsay Walton</div>
-								<div class="text-gray-600">@lindsaywalton</div>
-							</div>
-						</figcaption>
-					</figure>
-
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Nam nesciunt dolorem dolor asperiores cum. Incidunt molestiae quis deleniti vitae ut in earum delectus iusto.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Courtney Henry</div>
-								<div class="text-gray-600">@courtneyhenry</div>
-							</div>
-						</figcaption>
-					</figure>
-
-				</div>
-
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“Slow Money is one of the keys to a healthy future.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/bill.jpg" alt="Bill McKibben">
+						<div>
+							<div class="font-semibold text-gray-900">Bill McKibben</div>
+							<div class="text-gray-600">Founder, 350.org</div>
+						</div>
+					</figcaption>
+				</figure>
 			</div>
 
-			<div class="space-y-8 xl:contents xl:space-y-0">
-				<div class="space-y-8 xl:row-start-1">
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“There was a moment, seeing wonderful old codgers who have been farming for decades, sitting with young environmentalists, food entrepreneurs, and New York investment types. Wow. Talk about being the change we seek. It was a profoundly hopeful moment.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/brian-byrnes.jpg" alt="Brian Byrnes">
+						<div>
+							<div class="font-semibold text-gray-900">Brian Byrnes</div>
+							<div class="text-gray-600">Santa Fe Community Foundation</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Tom Cook</div>
-								<div class="text-gray-600">@tomcook</div>
-							</div>
-						</figcaption>
-					</figure>
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“It brings tears to my eyes.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/jim.jpg" alt="Jim Baird">
+						<div>
+							<div class="font-semibold text-gray-900">Jim Baird</div>
+							<div class="text-gray-600">Apple grower, Royal City, WA</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Aliquid dolore praesentium ratione. Cumque ea officia repellendus laboriosam. Vitae quod id explicabo non sunt.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Whitney Francis</div>
-								<div class="text-gray-600">@whitneyfrancis</div>
-							</div>
-						</figcaption>
-					</figure>
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>"Slow Money’s vision is doing more than catalyzing vital new capital flows to local food systems—it is seeding genuine cultural transformation."</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/gary.jpg" alt="Gary Nabhan">
+						<div>
+							<div class="font-semibold text-gray-900">Gary Nabhan</div>
+							<div class="text-gray-600">McArthur Fellow</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-				</div>
-				<div class="space-y-8 xl:row-span-2">
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“Connecting food, money and soil, really connecting them—this may just be a threshold moment in the history of agriculture.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/Margaret-Mellon.jpg" alt="Mardi Mellon">
+						<div>
+							<div class="font-semibold text-gray-900">Mardi Mellon</div>
+							<div class="text-gray-600">Union of Concerned Scientists</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Leonard Krasner</div>
-								<div class="text-gray-600">@leonardkrasner</div>
-							</div>
-						</figcaption>
-					</figure>
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“Slow money is an idea whose time has come.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/tom.jpg" alt="Tom Steyer">
+						<div>
+							<div class="font-semibold text-gray-900">Tom Steyer</div>
+							<div class="text-gray-600">Former hedge fund manager</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Architecto libero natus est. Est quam debitis officia enim atque et ut non. Sunt reiciendis quasi eaque. Itaque error ut et.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Floyd Miles</div>
-								<div class="text-gray-600">@floydmiles</div>
-							</div>
-						</figcaption>
-					</figure>
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“This is the start of a major international movement.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/steve.jpg" alt="Steve Costa">
+						<div>
+							<div class="font-semibold text-gray-900">Steve Costa</div>
+							<div class="text-gray-600">Pt. Reyes Bookstore</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-					<!-- Testimonial with blockquote and caption -->
-					<figure class="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-gray-900/5">
-						<blockquote class="text-gray-900">
-							<p>“Temporibus ea molestiae impedit adipisci perspiciatis illo aliquid. Quis ut ratione et voluptatem et. Nostrum explicabo iste unde beatae.”</p>
-						</blockquote>
-						<figcaption class="flex items-center mt-6 gap-x-4">
-							<img class="w-10 h-10 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80" alt="">
-							<div>
-								<div class="font-semibold">Emily Selman</div>
-								<div class="text-gray-600">@emilyselman</div>
-							</div>
-						</figcaption>
-					</figure>
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“Slow Money provides the language, the vocabulary, and the framing—empowering us to connect our values to our investments and our investments to local food systems.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/judy.jpg" alt="Judy Wicks">
+						<div>
+							<div class="font-semibold text-gray-900">Judy Wicks</div>
+							<div class="text-gray-600">Founder, BALLE</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
 
-				</div>
-
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“Every once in a while, an idea comes around that you immediately know is not only a good one, but in fact is an absolutely necessary one. Slow Money is such an idea."</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="http://localhost:10035/wp-content/uploads/2023/07/tom-stearns.jpg" alt="Tom Stearns">
+						<div>
+							<div class="font-semibold text-gray-900">Tom Stearns</div>
+							<div class="text-gray-600">High Mowing Organic Seeds</div>
+						</div>
+					</figcaption>
+				</figure>
 			</div>
 
 		</div>

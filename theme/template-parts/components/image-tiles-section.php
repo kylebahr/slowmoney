@@ -7,32 +7,34 @@
 			<!-- Text Block -->
 			<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
 				<!-- Title -->
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our events inspired a wave of local impact.</h2>
 				<!-- Description -->
-				<p class="mt-6 text-xl leading-8 text-gray-600">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
+				<p class="mt-6 text-xl leading-8 text-gray-600">More than a decade after our inaugural national gathering in 2009, Slow Money events have fueled change in communities across the nation.</p>
 				<!-- Additional Description -->
-				<p class="mt-6 text-base leading-7 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>
+				<p class="mt-6 text-base leading-7 text-gray-600">Our events, engaging tens of thousands of attendees, have sparked the formation of scores of local groups and nurtured countless connections between investors and local food entrepreneurs.</p>
 				<!-- Join Team Button -->
-				<div class="flex mt-10">
-					<a href="#" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Join our team <span aria-hidden="true">&rarr;</span></a>
+				<!-- Action buttons -->
+				<div class="flex items-center mt-10 gap-x-4">
+					<a href="/events" class="btn-lg">Our events</a>
+					<a href="/local-groups" class="btn-secondary-lg">Local groups</a>
 				</div>
 			</div>
 			<!-- Image Grid -->
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<!-- Image 1 -->
 				<div class="flex-auto w-0 lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-					<img src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+					<img src="http://localhost:10035/wp-content/uploads/2023/07/jeff.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 				</div>
 				<!-- Image 2, 3 and 4 -->
 				<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 					<div class="flex self-end justify-end flex-none order-first w-64 lg:w-auto">
-						<img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="http://localhost:10035/wp-content/uploads/2023/07/decelerator.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="flex justify-end flex-auto w-96 lg:w-auto lg:flex-none">
-						<img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="http://localhost:10035/wp-content/uploads/2023/07/tent.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-						<img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+						<img src="http://localhost:10035/wp-content/uploads/2023/07/decelerator-group.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 				</div>
 			</div>

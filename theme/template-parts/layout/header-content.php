@@ -69,7 +69,7 @@ get_template_part('template-parts/layout/banner-content');
 			<?php endif; ?>
 
 
-			<a href="https://donate.stripe.com/eVa6qJecTfVU85a8ww" target="_blank" class="btn-lg" aria-label="Donate Link">Donate</a>
+			<a href="https://donate.slowmoney.org/b/eVa6qJecTfVU85a8ww" target="_blank" class="btn-lg" aria-label="Donate Link">Donate</a>
 		</div>
 
 		<!-- Menu button for smaller screens -->
