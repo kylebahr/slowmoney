@@ -23,6 +23,22 @@
 			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
 				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
 					<blockquote class="text-gray-900">
+						<p>“The social and environmental crises of our time call for radically new economic vision. Who knew that poetry could seed it? Now we know.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/09/leslie-christian.jpg" alt="Leslie Christian">
+						<div>
+							<div class="font-semibold text-gray-900">Leslie Christian</div>
+							<div class="text-gray-600">NorthStar Asset Management</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
 						<p>“There was a moment, seeing wonderful old codgers who have been farming for decades, sitting with young environmentalists, food entrepreneurs, and New York investment types. Wow. Talk about being the change we seek. It was a profoundly hopeful moment.”</p>
 					</blockquote>
 					<figcaption class="flex items-center mt-6 gap-x-4">
@@ -30,38 +46,6 @@
 						<div>
 							<div class="font-semibold text-gray-900">Brian Byrnes</div>
 							<div class="text-gray-600">Santa Fe Community Foundation</div>
-						</div>
-					</figcaption>
-				</figure>
-			</div>
-
-			<!-- Testimonial-->
-			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
-					<blockquote class="text-gray-900">
-						<p>“It brings tears to my eyes.”</p>
-					</blockquote>
-					<figcaption class="flex items-center mt-6 gap-x-4">
-						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/07/jim.jpg" alt="Jim Baird">
-						<div>
-							<div class="font-semibold text-gray-900">Jim Baird</div>
-							<div class="text-gray-600">Apple grower, Royal City, WA</div>
-						</div>
-					</figcaption>
-				</figure>
-			</div>
-
-			<!-- Testimonial-->
-			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
-					<blockquote class="text-gray-900">
-						<p>"Slow Money’s vision is doing more than catalyzing vital new capital flows to local food systems—it is seeding genuine cultural transformation."</p>
-					</blockquote>
-					<figcaption class="flex items-center mt-6 gap-x-4">
-						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/07/gary.jpg" alt="Gary Nabhan">
-						<div>
-							<div class="font-semibold text-gray-900">Gary Nabhan</div>
-							<div class="text-gray-600">McArthur Fellow</div>
 						</div>
 					</figcaption>
 				</figure>
@@ -87,13 +71,13 @@
 			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
 				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
 					<blockquote class="text-gray-900">
-						<p>“Slow money is an idea whose time has come.”</p>
+						<p>"Slow Money’s vision is doing more than catalyzing vital new capital flows to local food systems—it is seeding genuine cultural transformation."</p>
 					</blockquote>
 					<figcaption class="flex items-center mt-6 gap-x-4">
-						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/07/tom.jpg" alt="Tom Steyer">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/07/gary.jpg" alt="Gary Nabhan">
 						<div>
-							<div class="font-semibold text-gray-900">Tom Steyer</div>
-							<div class="text-gray-600">Former hedge fund manager</div>
+							<div class="font-semibold text-gray-900">Gary Nabhan</div>
+							<div class="text-gray-600">McArthur Fellow</div>
 						</div>
 					</figcaption>
 				</figure>
@@ -103,13 +87,29 @@
 			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
 				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
 					<blockquote class="text-gray-900">
-						<p>“This is the start of a major international movement.”</p>
+						<p>“This is the path to an alternative future.”</p>
 					</blockquote>
 					<figcaption class="flex items-center mt-6 gap-x-4">
-						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/07/steve.jpg" alt="Steve Costa">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/09/zoe-bradbury.jpg" alt="Zoe Bradbury">
 						<div>
-							<div class="font-semibold text-gray-900">Steve Costa</div>
-							<div class="text-gray-600">Pt. Reyes Bookstore</div>
+							<div class="font-semibold text-gray-900">Zoe Bradbury</div>
+							<div class="text-gray-600">Valley Flora Farm</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
+			<!-- Testimonial-->
+			<div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+				<figure class="p-8 text-sm leading-6 rounded-2xl bg-gray-50">
+					<blockquote class="text-gray-900">
+						<p>“It brings tears to my eyes.”</p>
+					</blockquote>
+					<figcaption class="flex items-center mt-6 gap-x-4">
+						<img class="w-10 h-10 rounded-full bg-gray-50" src="/wp-content/uploads/2023/07/jim.jpg" alt="Jim Baird">
+						<div>
+							<div class="font-semibold text-gray-900">Jim Baird</div>
+							<div class="text-gray-600">Apple grower, Royal City, WA</div>
 						</div>
 					</figcaption>
 				</figure>

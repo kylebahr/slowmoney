@@ -11,7 +11,7 @@ get_header();
 <section class="px-6 entry-header lg:px-8">
 	<div class="relative max-w-4xl pt-20 mx-auto text-center">
 		<h1 class="text-base font-semibold leading-7 text-green-700">About us</h1>
-		<h2 class="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">We're a non-profit organization catelyzing grassroots funding for local food systems, organic farming and soil fertility.</h2>
+		<h2 class="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">We're a non-profit organization catalyzing grassroots funding for local food systems, organic farming and soil fertility.</h2>
 	</div>
 </section>
 
@@ -43,7 +43,7 @@ get_header();
 						<!-- Second dataset -->
 						<div class="flex flex-col-reverse gap-y-4">
 							<dt class="text-base leading-7 text-gray-600">Small food enterprises funded</dt>
-							<dd class="text-5xl font-semibold tracking-tight text-gray-900">800+</dd>
+							<dd class="text-5xl font-semibold tracking-tight text-gray-900">1,000+</dd>
 						</div>
 						<!-- Third dataset -->
 						<div class="flex flex-col-reverse gap-y-4">

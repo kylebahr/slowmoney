@@ -23,9 +23,9 @@ entry_title();
 
 		<!-- Publication -->
 		<li class="overflow-hidden transition-colors transition-shadow duration-200 ease-in bg-white rounded-lg shadow duration-400 hover:shadow-xl ring-1 ring-gray-900/5">
-			<a href="http://localhost:3000/wp-content/uploads/2023/06/Slow-Money-State-of-the-Sector-Report.pdf" target="_blank" class="flex flex-col block h-full">
+			<a href="/wp-content/uploads/2023/06/Slow-Money-State-of-the-Sector-Report.pdf" target="_blank" class="flex flex-col block h-full">
 				<div class="py-6 pt-6 pb-3">
-					<img class="object-contain object-center mx-auto shadow max-h-48" src="http://localhost:3000/wp-content/uploads/2023/06/Slow-Money-State-of-the-Sector-Report-1.jpg" alt="Slow Money State of the Sector Report">
+					<img class="object-contain object-center mx-auto shadow max-h-48" src="/wp-content/uploads/2023/06/Slow-Money-State-of-the-Sector-Report-1.jpg" alt="Slow Money State of the Sector Report">
 				</div>
 				<div class="flex flex-col justify-between flex-grow p-6 text-sm gap-y-8">
 					<div>
@@ -44,9 +44,9 @@ entry_title();
 
 		<!-- Publication -->
 		<li class="overflow-hidden transition-colors transition-shadow duration-200 ease-in bg-white rounded-lg shadow duration-400 hover:shadow-xl ring-1 ring-gray-900/5">
-			<a href="http://localhost:3000/wp-content/uploads/2023/06/SMJ_Winter1718.pdf" target="_blank" class="flex flex-col block h-full">
+			<a href="/wp-content/uploads/2023/06/SMJ_Winter1718.pdf" target="_blank" class="flex flex-col block h-full">
 				<div class="py-6 pt-6 pb-3">
-					<img class="object-contain object-center mx-auto shadow max-h-48" src="http://localhost:3000/wp-content/uploads/2023/06/SMJ_Winter1718.jpg" alt="Slow Money Journal">
+					<img class="object-contain object-center mx-auto shadow max-h-48" src="/wp-content/uploads/2023/06/SMJ_Winter1718.jpg" alt="Slow Money Journal">
 				</div>
 				<div class="flex flex-col justify-between flex-grow p-6 text-sm gap-y-8">
 					<div>
@@ -65,9 +65,9 @@ entry_title();
 
 		<!-- Publication -->
 		<li class="overflow-hidden transition-colors transition-shadow duration-200 ease-in bg-white rounded-lg shadow duration-400 hover:shadow-xl ring-1 ring-gray-900/5">
-			<a href="http://localhost:3000/wp-content/uploads/2023/06/SMJ_Winter1617.pdf" target="_blank" class="flex flex-col block h-full">
+			<a href="/wp-content/uploads/2023/06/SMJ_Winter1617.pdf" target="_blank" class="flex flex-col block h-full">
 				<div class="py-6 pt-6 pb-3">
-					<img class="object-contain object-center mx-auto shadow max-h-48" src="http://localhost:3000/wp-content/uploads/2023/06/SMJ_Winter1617.jpg" alt="Slow Money Journal">
+					<img class="object-contain object-center mx-auto shadow max-h-48" src="/wp-content/uploads/2023/06/SMJ_Winter1617.jpg" alt="Slow Money Journal">
 				</div>
 				<div class="flex flex-col justify-between flex-grow p-6 text-sm gap-y-8">
 					<div>
@@ -86,9 +86,9 @@ entry_title();
 
 		<!-- Publication -->
 		<li class="overflow-hidden transition-colors transition-shadow duration-200 ease-in bg-white rounded-lg shadow duration-400 hover:shadow-xl ring-1 ring-gray-900/5">
-			<a href="http://localhost:3000/wp-content/uploads/2023/06/SMJ_Spring_2016.pdf" target="_blank" class="flex flex-col block h-full">
+			<a href="/wp-content/uploads/2023/06/SMJ_Spring_2016.pdf" target="_blank" class="flex flex-col block h-full">
 				<div class="py-6 pt-6 pb-3">
-					<img class="object-contain object-center mx-auto shadow max-h-48" src="http://localhost:3000/wp-content/uploads/2023/06/SMJ_Spring_2016@2x.jpg" alt="Slow Money Journal">
+					<img class="object-contain object-center mx-auto shadow max-h-48" src="/wp-content/uploads/2023/06/SMJ_Spring_2016@2x.jpg" alt="Slow Money Journal">
 				</div>
 				<div class="flex flex-col justify-between flex-grow p-6 text-sm gap-y-8">
 					<div>
@@ -107,9 +107,9 @@ entry_title();
 
 		<!-- Publication -->
 		<li class="overflow-hidden transition-colors transition-shadow duration-200 ease-in bg-white rounded-lg shadow duration-400 hover:shadow-xl ring-1 ring-gray-900/5">
-			<a href="http://localhost:3000/wp-content/uploads/2023/06/commons_nth.pdf" target="_blank" class="flex flex-col block h-full">
+			<a href="/wp-content/uploads/2023/06/commons_nth.pdf" target="_blank" class="flex flex-col block h-full">
 				<div class="py-6 pt-6 pb-3">
-					<img class="object-contain object-center mx-auto shadow max-h-48" src="http://localhost:3000/wp-content/uploads/2023/06/commons_nth.jpg" alt="Commons nth">
+					<img class="object-contain object-center mx-auto shadow max-h-48" src="/wp-content/uploads/2023/06/commons_nth.jpg" alt="Commons nth">
 				</div>
 				<div class="flex flex-col justify-between flex-grow p-6 text-sm gap-y-8">
 					<div>

@@ -12,7 +12,7 @@
 				<p class="text-xl leading-8 text-gray-600">We believe that building robust local food systems acts as a seed of change, addressing our era's most daunting challenges—climate change, health, community resilience.</p>
 				<!-- Paragraphs 2 & 3 -->
 				<div class="max-w-xl mt-10 text-base leading-7 text-gray-700">
-					<p>Our mission? To be the water that nourishes this seed, channelling capital into local food systems, connecting investors to the places where they live and deepening their sense of place, diversity, nonviolence and health. The Slow Money Institute serves as a gardener, catalyzing the formation of self-organizing local groups, which use a diversity of approaches: public meetings, on-farm events, pitch fests, peer-to-peer loans, investment clubs and, most recently, nonprofit clubs making 0% loans.</p>
+					<p>Our mission? To grow a grassroots, international movement supporting local food systems, connecting us to the places where we live and deepening our commitment diversity, from the ground up. The Slow Money Institute helps organize local groups which use a diversity of approaches: public meetings, on-farm events, pitch fests, peer-to-peer loans, investment clubs and, most recently, nonprofit clubs making 0% loans.</p>
 				</div>
 				<div class="flex mt-10">
 					<a href="/about" class="text-base font-semibold leading-7 text-green-600">Learn more about our mission <span aria-hidden="true">&rarr;</span></a>

@@ -23,7 +23,7 @@ get_header(); ?>
 
 			<div x-data="{ open: false, videoUrl: 'https://www.youtube.com/embed/nlqFi88LNo8' }" class="relative flow-root" x-init="setTimeout(() => { $el.style.display = 'block'; }, 0);">
 				<span class="sr-only">Watch our video to learn more</span>
-				<img src="http://localhost:3000/wp-content/uploads/2023/06/two-roots-groups@2x.jpg" alt="Two Roots Farm" class="aspect-[7/5] mx-auto w-[34rem] max-w-full object-cover rounded-2xl">
+				<img src="/wp-content/uploads/2023/06/two-roots-groups@2x.jpg" alt="Two Roots Farm" class="aspect-[7/5] mx-auto w-[34rem] max-w-full object-cover rounded-2xl">
 				<div class="absolute inset-0 flex items-center justify-center">
 					<button @click="open = true, videoUrl = videoUrl + '?autoplay=1'" class="focus:outline-none">
 						<svg class="w-20 h-20 text-green-600" fill="currentColor" viewBox="0 0 84 84">
@@ -62,7 +62,7 @@ get_header(); ?>
 						<img src="/wp-content/uploads/2023/06/jared.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="flex justify-end flex-auto w-96 lg:w-auto lg:flex-none">
-						<img src="http://localhost:3000/wp-content/uploads/2023/06/soil-boulder-group.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/06/soil-boulder-group.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
 						<img src="/wp-content/uploads/2023/06/Willow-Tara-Brian.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">

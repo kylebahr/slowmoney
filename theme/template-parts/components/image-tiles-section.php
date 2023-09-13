@@ -7,11 +7,11 @@
 			<!-- Text Block -->
 			<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
 				<!-- Title -->
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our events inspired a wave of local impact.</h2>
+				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our events inspired waves of local action and impact.</h2>
 				<!-- Description -->
-				<p class="mt-6 text-xl leading-8 text-gray-600">More than a decade after our inaugural national gathering in 2009, Slow Money events have fueled change in communities across the nation.</p>
+				<p class="mt-6 text-xl leading-8 text-gray-600">Since our inaugural national gathering in 2009, Slow Money events have fueled change in communities across the nation.</p>
 				<!-- Additional Description -->
-				<p class="mt-6 text-base leading-7 text-gray-600">Our events, engaging tens of thousands of attendees, have sparked the formation of scores of local groups and nurtured countless connections between investors and local food entrepreneurs.</p>
+				<p class="mt-6 text-base leading-7 text-gray-600">Our events, engaging tens of thousands of attendees, have sparked the formation of scores of local groups and nurtured countless connections between funders, farmers and local food entrepreneurs.</p>
 				<!-- Join Team Button -->
 				<!-- Action buttons -->
 				<div class="flex items-center mt-10 gap-x-4">

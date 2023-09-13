@@ -72,6 +72,7 @@ if (post_password_required()) {
 				while (have_rows('testimonials')) : the_row();
 					$image = get_sub_field('testimonial_image');
 					$name = get_sub_field('testimonial_name');
+					$title = get_sub_field('testimonial_title');
 					$review = get_sub_field('testimonial_review');
 				?>
 
@@ -80,8 +81,14 @@ if (post_password_required()) {
 							<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="w-10 h-10 bg-gray-100 rounded-full">
 						</div>
 						<div class="w-full py-10 border-t border-gray-200">
-							<h3 class="font-medium text-gray-900"><?php echo esc_html($name); ?></h3>
-
+							<h3 class="font-medium text-gray-900">
+								<?php
+								echo esc_html($name);
+								if ($title = get_sub_field('testimonial_title')) {
+									echo '<span class="text-gray-600">, ' . esc_html($title) . '</span>';
+								}
+								?>
+							</h3>
 							<div class="flex items-center mt-4">
 								<?php for ($i = 0; $i < 5; $i++) : ?>
 									<svg class="flex-shrink-0 w-5 h-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
