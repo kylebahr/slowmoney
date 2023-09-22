@@ -10,7 +10,7 @@
 				<!-- Left-side content: Heading, description and buttons -->
 				<div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
 					<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">We’re bringing money back down to earth.</h1>
-					<p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">We're going slower and slower, smaller and smaller, more and more local in an effort to solve the problems caused by going faster and faster, bigger and bigger, more and more global.</p>
+					<p class="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">In a world that is heating up and speeding up, is there anything more important than fixing things from the ground up? We don’t think so.</p>
 					<!-- Action buttons -->
 					<div class="flex items-center mt-10 gap-x-6">
 						<a href="/about" class="btn-xl">Learn more</a>
@@ -29,7 +29,7 @@
 					</div>
 					<div class="flex-none mr-auto space-y-8 w-44 sm:mr-0 sm:pt-52 lg:pt-20">
 						<div class="relative">
-							<img src="/wp-content/uploads/2023/06/jack.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/09/junipers-garden.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 						<div class="relative">
@@ -39,11 +39,11 @@
 					</div>
 					<div class="flex-none pt-32 space-y-8 w-44 sm:pt-0">
 						<div class="relative">
-							<img src="/wp-content/uploads/2023/06/revision-family.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/06/jack.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 						<div class="relative">
-							<img src="/wp-content/uploads/2023/06/skokan.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
+							<img src="/wp-content/uploads/2023/09/lh-group.jpg" alt="" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg">
 							<div class="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-gray-900/10"></div>
 						</div>
 					</div>

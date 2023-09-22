@@ -43,12 +43,12 @@ get_header();
 						<!-- Second dataset -->
 						<div class="flex flex-col-reverse gap-y-4">
 							<dt class="text-base leading-7 text-gray-600">Small food enterprises funded</dt>
-							<dd class="text-5xl font-semibold tracking-tight text-gray-900">1,000+</dd>
+							<dd class="text-5xl font-semibold tracking-tight text-gray-900">1,000</dd>
 						</div>
 						<!-- Third dataset -->
 						<div class="flex flex-col-reverse gap-y-4">
-							<dt class="text-base leading-7 text-gray-600">Event attendees</dt>
-							<dd class="text-5xl font-semibold tracking-tight text-gray-900">25,000+</dd>
+							<dt class="text-base leading-7 text-gray-600">Slow money funders</dt>
+							<dd class="text-5xl font-semibold tracking-tight text-gray-900">5,000</dd>
 						</div>
 					</dl>
 				</div>
@@ -63,7 +63,7 @@ get_header();
 			<img src="/wp-content/uploads/2023/06/ollin-web.jpg" alt="" class="object-cover w-full h-full aspect-[9/8]">
 		</div>
 		<div class="md:col-span-7">
-			<img src="/wp-content/uploads/2023/06/sheep.jpg" alt="" class="aspect-[18/8] object-cover w-full h-full aspect-h-8">
+			<img src="/wp-content/uploads/2023/09/native-hill.jpg" alt="" class="aspect-[18/8] object-cover w-full h-full aspect-h-8">
 		</div>
 		<!-- Second row -->
 		<div class="md:col-span-3">
@@ -73,7 +73,7 @@ get_header();
 			<img src="/wp-content/uploads/2023/06/carol.jpg" alt="" class="object-cover w-full h-full">
 		</div>
 		<div class="md:col-span-5">
-			<img src="/wp-content/uploads/2023/06/juniper-farm.jpg" alt="" class="object-cover w-full h-full">
+			<img src="/wp-content/uploads/2023/09/northside-coalition.jpg" alt="" class="object-cover w-full h-full">
 		</div>
 	</section>
 
@@ -83,7 +83,7 @@ get_header();
 			<!-- Title -->
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our leadership</h2>
 			<!-- Description -->
-			<p class="mt-6 text-lg leading-8 text-gray-600">Passionate about redefining how we invest in organic farms and local food systems, our leadership team draws energy from our grassroots influence, driving forward with understanding, collaboration, and innovation.</p>
+			<p class="mt-6 text-lg leading-8 text-gray-600">Passionate about redefining how we invest in organic farms and local food systems, our leadership team draws energy from our grassroots influence, driving forward in a spirit of dialogue, collaboration and innovation.</p>
 		</div>
 		<!-- Including custom team grid -->
 		<?php my_custom_team_grid(); ?>
@@ -94,7 +94,7 @@ get_header();
 	<div class="mt-28 sm:mt-40">
 		<div class="max-w-2xl mx-auto lg:mx-0">
 			<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our history and vision</h1>
-			<p class="mt-6 text-xl leading-8 text-gray-600">Slow Money took root in 2009 with Tasch’s <a class="font-semibold text-green-600" href="/books/inquiries-into-the-nature-of-slow-money/">ground breaking book</a> <em>Inquiries into the Nature of Slow Money: Investing as if Food, Farms, and Fertility Mattered.</em> As Tasch traveled the country on a book tour, audience members stepped forward one by one, inspired to create within their local communities the change he spoke about.</p>
+			<p class="mt-6 text-xl leading-8 text-gray-600">Slow Money took root in 2009 with Tasch’s <a class="font-semibold text-green-600" href="/books/inquiries-into-the-nature-of-slow-money/">ground breaking book</a> <em>Inquiries into the Nature of Slow Money: Investing as if Food, Farms, and Fertility Mattered.</em> As he traveled the country on a book tour, audience members stepped forward, inspired to create within their local communities the change he spoke about.</p>
 		</div>
 		<div class="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
 			<div class="lg:order-last lg:col-span-5">
@@ -120,8 +120,8 @@ get_header();
 				</figure>
 			</div>
 			<div class="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
-				<p>In the ensuing decade, $80+ million flowed to more than 800 small organic farms and local food businesses via volunteer-led activities in dozens of communities. Tens of thousands attended local, national and virtual slow money events. A variety of local approaches were pursued, from pitch fests, informal networks, and investment clubs to peer-to-peer lending, all pointing towards the opportunity to grow a broader grassroots movement. </p>
-				<img class="object-cover w-full h-auto mt-12 rounded-xl" src="/wp-content/uploads/2023/06/sm-book-mockup@2x.jpg" alt="Placeholder">
+				<p>In the ensuing decade, $80 million flowed to more than 1000 small organic farms and local food businesses via volunteer-led activities in dozens of communities. Tens of thousands attended local, national and virtual slow money events. A variety of local approaches were pursued, from pitch fests, informal networks, and investment clubs to peer-to-peer lending, all pointing towards the opportunity to grow a broader grassroots movement. </p>
+				<a href="/books/inquiries-into-the-nature-of-slow-money/"><img class="object-cover w-full h-auto mt-12 rounded-xl" src="/wp-content/uploads/2023/06/sm-book-mockup@2x.jpg" alt="Inquiries into the Nature of Slow Money: Investing as if Food, Farms, and Fertility Mattered"></a>
 				<p class="mt-8">The vision behind the slow money movement is encapsulated in the <a class="font-semibold text-green-600" href="/slow-money-principles/">Slow Money Principles</a>, which revolve around nurture capital, care of the commons, sense of place, diversity and nonviolence. This is a framework for public conversation and cooperative action, informed by the process of bringing some of our money back down to earth, putting it to work in things that we understand, near where we live, starting with food. </p>
 			</div>
 		</div>

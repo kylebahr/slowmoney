@@ -15,7 +15,7 @@ get_header(); ?>
 	<div class="pt-16 lg:pt-16 lg:flex lg:items-center lg:gap-x-10">
 		<div class="max-w-2xl mx-auto lg:mx-0 lg:flex-auto">
 			<h1 class="sr-only">Local groups</h1>
-			<h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">The Slow Money movement is built around local groups</h2>
+			<h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">The Slow Money movement is built around local groups.</h2>
 			<p class="mt-6 text-xl leading-8 text-gray-600">Local investors, connected to one another, local farmers, the places where we live, and the land, catalyzing meaningful new flow of nurture capital.</p>
 		</div>
 
@@ -84,24 +84,24 @@ get_header(); ?>
 		</div>
 		<div class="flex flex-col max-w-2xl gap-8 mx-auto mt-16 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
 			<div class="flex flex-col-reverse justify-between p-8 gap-x-16 gap-y-8 rounded-2xl bg-gray-50 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-				<p class="flex-none text-3xl font-bold tracking-tight text-gray-900">5,000+</p>
+				<p class="flex-none text-3xl font-bold tracking-tight text-gray-900">5,000</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-					<p class="text-lg font-semibold tracking-tight text-gray-900">Slow Money investors</p>
-					<p class="mt-2 text-base leading-7 text-gray-600">These aren't your traditional investors. They're putting money to work not with an eye toward how much money they might make, but toward preserving local food systems and soil fertility.</p>
+					<p class="text-lg font-semibold tracking-tight text-gray-900">Slow Money funders</p>
+					<p class="mt-2 text-base leading-7 text-gray-600">We aren't your traditional funders. We're putting money to work not with an eye toward how much money we might make, but toward preserving local food systems and soil fertility.</p>
 				</div>
 			</div>
 			<div class="flex flex-col-reverse justify-between p-8 bg-neutral-900 gap-x-16 gap-y-8 rounded-2xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
-				<p class="flex-none text-3xl font-bold tracking-tight text-white">$80+ million</p>
+				<p class="flex-none text-3xl font-bold tracking-tight text-white">$80 million</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
 					<p class="text-lg font-semibold tracking-tight text-white">Has flowed to small organic farms and local food businesses.</p>
-					<p class="mt-2 text-base leading-7 text-gray-400">Via Slow Money local groups in dozens of communities around the U.S., and a few in Canada, France and Australia. Volunteer led, with no centralized fund, reflecting the grassroots nature of the Slow Money movement.</p>
+					<p class="mt-2 text-base leading-7 text-gray-400">Via Slow Money local groups in dozens of communities around the U.S., and a few in Canada, France and Australia. A grassroots movement, driven by mutuality, local decision-making and shared vision.</p>
 				</div>
 			</div>
 			<div class="flex flex-col-reverse justify-between p-8 bg-green-600 gap-x-16 gap-y-8 rounded-2xl sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-				<p class="flex-none text-3xl font-bold tracking-tight text-white">1,000+</p>
+				<p class="flex-none text-3xl font-bold tracking-tight text-white">1,000</p>
 				<div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
 					<p class="text-lg font-semibold tracking-tight text-white">Small food enterprises funded</p>
-					<p class="mt-2 text-base leading-7 text-green-200">No one investment technique or instrument, although the vast majority of the funding was in the form of below market loans. 0%. 3%. 5%. Going to folks who likely wouldn't have access to bank financing at any cost.</p>
+					<p class="mt-2 text-base leading-7 text-green-200">No one investment technique or instrument, although most of the funding has been in the form of below market loans. <a class="underline" href="https://beetcoin.org/" target="_blank">And now there are 0% loans</a>.</p>
 				</div>
 			</div>
 		</div>
@@ -115,7 +115,7 @@ get_header(); ?>
 			<!-- Title -->
 			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Active local groups</h2>
 			<!-- Description -->
-			<p class="mt-6 text-base leading-7 prose text-gray-600">Local groups are organized as informal networks and investment clubs. We celebrate a diversity of approaches, including everything from 0% microloans to low-interest loans of a $100,000 or more. If you're interested in starting a local group, please <a href="/support/contact/"> contact us</a>.</p>
+			<p class="mt-6 text-base leading-7 prose text-gray-600">Local groups are organized in a variety of ways. Everything from 0% microloans to low-interest loans of $100,000 or more. If you're interested in starting a local group, please <a href="/support/contact/"> contact us</a>.</p>
 		</div>
 		<div class="mt-8">
 			<div class="flow-root mt-8">

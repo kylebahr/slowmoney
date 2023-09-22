@@ -30,12 +30,12 @@
 					<!-- Second dataset -->
 					<div class="flex flex-col-reverse gap-y-4">
 						<dt class="text-base leading-7 text-gray-600">Small food enterprises funded</dt>
-						<dd class="text-5xl font-semibold tracking-tight text-gray-900">1,000+</dd>
+						<dd class="text-5xl font-semibold tracking-tight text-gray-900">1,000</dd>
 					</div>
 					<!-- Third dataset -->
 					<div class="flex flex-col-reverse gap-y-4">
-						<dt class="text-base leading-7 text-gray-600">Event attendees</dt>
-						<dd class="text-5xl font-semibold tracking-tight text-gray-900">25,000+</dd>
+						<dt class="text-base leading-7 text-gray-600">Slow money funders</dt>
+						<dd class="text-5xl font-semibold tracking-tight text-gray-900">5,000</dd>
 					</div>
 				</dl>
 			</div>

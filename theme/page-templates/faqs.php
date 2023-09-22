@@ -14,7 +14,7 @@ get_header(); ?>
 		<section class="lg:col-span-4">
 			<h1 class="text-base font-semibold leading-7 text-green-600">Frequently asked questions</h1>
 			<h2 class="mt-4 text-4xl font-extrabold tracking-tight text-slate-900 xl:text-5xl xl:leading-[3.5rem]">Everything you need to know</h2>
-			<p class="mt-4 mb-6 text-base leading-7 text-gray-600">Can’t find the answer you’re looking for? Reach out to our customer support team.</p>
+			<p class="mt-4 mb-6 text-base leading-7 text-gray-600">Can’t find the answer you’re looking for? Reach out to our support team.</p>
 			<a class="btn-secondary-lg" href="/support/contact">Get in touch <span aria-hidden="true">→</span></a>
 		</section>
 

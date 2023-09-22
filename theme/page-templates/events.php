@@ -16,10 +16,10 @@ get_header(); ?>
 		<!-- Header Title -->
 		<h1 class="text-base font-semibold leading-7 text-green-700">Our events</h1>
 
-		<h2 class="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">A vital link in the slow money movement</h2>
+		<h2 class="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">The slow money movement in action</h2>
 
 		<!-- Header Description - Displayed if available -->
-		<p class="mt-6 text-lg leading-7 text-slate-600">Renowned thought leaders and financiers, along with local farmers. Our national gatherings inspire and connect a family of local Slow Money networks.</p>
+		<p class="mt-6 text-lg leading-7 text-slate-600">Renowned thought leaders and financiers, along with local farmers. Our events inspire and connect a family of local Slow Money networks.</p>
 
 		<!-- Newsletter Form - Displayed if enabled -->
 		<?php if (get_query_var('display_newsletter_form')) : ?>
@@ -35,7 +35,7 @@ get_header(); ?>
 
 	<!-- Video element -->
 	<div x-data="{ open: false, videoUrl: 'https://www.youtube.com/embed/_Ebzpj-2fGI' }" class="relative flow-root" x-init="setTimeout(() => { $el.style.display = 'block'; }, 0);">
-		<img src="/wp-content/uploads/2023/06/louisville-2014.jpg" alt="Louisville 2014 National Gathering" width="2432" height="1368" class="rounded-lg shadow-2xl ring-1 ring-gray-900/10">
+		<img src="/wp-content/uploads/2023/09/Louisville_group_shot_cleaned-web.jpg" alt="Louisville 2014 National Gathering" width="2432" height="1368" class="rounded-lg shadow-2xl ring-1 ring-gray-900/10">
 		<div class="absolute inset-0 flex items-center justify-center">
 			<button @click="open = true, videoUrl = videoUrl + '?autoplay=1'" class="focus:outline-none">
 				<svg class="w-20 h-20 text-green-600" fill="currentColor" viewBox="0 0 84 84">
@@ -85,7 +85,7 @@ get_header(); ?>
 				<p class="mt-6 text-xl leading-8 text-gray-600">Bringing together a broad spectrum of stakeholders, from fiduciaries to farmers, is essential to the approach Slow Money takes in creating an environment for nuanced, authentic public dialogues about food, investing, and culture.
 
 				</p>
-				<p class="mt-6 text-base leading-7 text-gray-600">More than a decade after our inaugural national gathering in 2009, these conversations have proven their transformative power. Slow Money events, both local and national, have welcomed tens of thousands of attendees across numerous communities. These gatherings serve as a vital complement to the local Slow Money networks and investment clubs.</p>
+				<p class="mt-6 text-base leading-7 text-gray-600">These conversations have proven their transformative power. Slow Money events, both local and national, have welcomed tens of thousands of attendees across numerous communities. These gatherings serve as a vital complement to the local Slow Money networks and investment clubs.</p>
 			</div>
 			<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 				<div class="flex-auto w-0 lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
@@ -93,7 +93,7 @@ get_header(); ?>
 				</div>
 				<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 					<div class="flex self-end justify-end flex-none order-first w-64 lg:w-auto">
-						<img src="/wp-content/uploads/2023/06/joelsalatin.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+						<img src="/wp-content/uploads/2023/09/marco.jpg" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 					</div>
 					<div class="flex justify-end flex-auto w-96 lg:w-auto lg:flex-none">
 						<img src="/wp-content/uploads/2023/06/harvestfestival.jpg" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
@@ -129,21 +129,19 @@ get_header(); ?>
 
 <section class="px-6 mx-auto max-w-7xl lg:px-8">
 
-
 	<section class="mt-28 sm:mt-40">
 		<figure class="max-w-2xl mx-auto">
 			<blockquote class="text-xl font-semibold leading-8 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-9">
-				<p>“The two Slow Money gatherings I attended were so compelling, so inspiring, so empowering, and yet so down-to-earth that it was impossible to walk away unchanged.”</p>
+				<p>“The future will be made by the hands of farmers, visionaries and those who put their prayers in Mother Earth. That’s the story we are unfolding.”</p>
 			</blockquote>
 			<figcaption class="flex items-center justify-center mt-10 gap-x-6">
 				<div class="text-sm leading-6 text-center">
-					<div class="font-semibold text-gray-900">Nancy Thellman</div>
-					<div class="mt-0.5 text-gray-600">Former County Commissioner, Douglas County, KS</div>
+					<div class="font-semibold text-gray-900">Winona LaDuke</div>
+					<div class="mt-0.5 text-gray-600">Co-founder, Honor the Earth</div>
 				</div>
 			</figcaption>
 		</figure>
 	</section>
-
 
 	<!-- Videos section -->
 	<div class="mx-auto mt-28 sm:mt-40">
