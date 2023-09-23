@@ -93,7 +93,7 @@ get_template_part('template-parts/layout/banner-content');
 					<span class="sr-only"><?php bloginfo('name'); ?></span>
 					<img class="w-auto h-8" src="<?php echo esc_url(filter_var(get_theme_mod('logo_url'), FILTER_VALIDATE_URL)); ?>" alt="Site Logo">
 				</a>
-				<a href="#" class="px-3 py-2 ml-auto text-sm font-semibold text-white bg-green-600 rounded-md shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" aria-label="Sign up Link">Sign up</a>
+				<a href="https://donate.slowmoney.org/b/eVa6qJecTfVU85a8ww" class="px-3 py-2 ml-auto text-sm font-semibold text-white bg-green-600 rounded-md shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" aria-label="Sign up Link">Donate</a>
 				<!-- Close menu button -->
 				<button @click="open = false" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" aria-label="Close menu">
 					<span class="sr-only">Close menu</span>
@@ -117,9 +117,6 @@ get_template_part('template-parts/layout/banner-content');
 							)
 						);
 						?>
-					</div>
-					<div class="py-6">
-						<a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900" aria-label="Login Link">Log in</a>
 					</div>
 				</div>
 			</div>

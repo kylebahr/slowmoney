@@ -17,7 +17,7 @@
  */
 
 if (!defined('ABSPATH')) {
-	exit; // Exit if accessed directly.
+    exit; // Exit if accessed directly.
 }
 
 the_title('<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">', '</h1>');

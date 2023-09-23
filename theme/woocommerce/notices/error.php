@@ -17,18 +17,18 @@
  */
 
 if (!defined('ABSPATH')) {
-	exit;
+    exit;
 }
 
 if (!$notices) {
-	return;
+    return;
 }
 
 ?>
 <div class="text-sm text-red-700 border-t-0 woocommerce-error not-prose rounded-xl bg-red-50" role="alert">
-	<?php foreach ($notices as $notice) : ?>
-		<p<?php echo wc_get_notice_data_attr($notice); ?>>
-			<?php echo wc_kses_notice($notice['notice']); ?>
-			</p>
-		<?php endforeach; ?>
+    <?php foreach ($notices as $notice) : ?>
+        <p<?php echo wc_get_notice_data_attr($notice); ?>>
+            <?php echo wc_kses_notice($notice['notice']); ?>
+            </p>
+    <?php endforeach; ?>
 </div>

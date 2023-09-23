@@ -13,20 +13,20 @@ $flexibleContent = get_field('flexible_content');
 
 // Check if the Flexible Content field has values
 if ($flexibleContent) {
-	echo '<ul role="list" class="grid grid-cols-1 mt-16 gap-x-4 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 xl:gap-y-16 xl:gap-x-12">';
+    echo '<ul role="list" class="grid grid-cols-1 mt-16 gap-x-4 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 xl:gap-y-16 xl:gap-x-12">';
 
-	foreach ($flexibleContent as $layout) {
-		// Check if the current layout has 'videos' repeater
-		if (isset($layout['videos'])) {
-			$videos = $layout['videos'];
+    foreach ($flexibleContent as $layout) {
+        // Check if the current layout has 'videos' repeater
+        if (isset($layout['videos'])) {
+            $videos = $layout['videos'];
 
-			foreach ($videos as $video) {
-				$img = $video['thumbnail'];
-				$type = $video['type'];
-				$name = $video['title'];
-				$url = $video['url'];
+            foreach ($videos as $video) {
+                $img = $video['thumbnail'];
+                $type = $video['type'];
+                $name = $video['title'];
+                $url = $video['url'];
 
-				echo '
+                echo '
 				<li x-data="{ open: false, videoUrl: \'\' }" class="relative" x-init="setTimeout(() => { $el.style.display = \'block\'; }, 0);">
 					<div class="relative flow-root">
 						<div class="relative">
@@ -61,9 +61,9 @@ if ($flexibleContent) {
 								</div>
 							</div>
 						</li>';
-			}
-		}
-	}
+            }
+        }
+    }
 
-	echo '</ul>';
+    echo '</ul>';
 }

@@ -17,39 +17,37 @@
  */
 
 if (!defined('ABSPATH')) {
-	exit;
+    exit;
 }
 
 if ($related_products) : ?>
+    <section class="mt-16 related products sm:mt-24">
 
-	<section class="mt-16 related products sm:mt-24">
+        <?php
+        $heading = apply_filters('woocommerce_product_related_products_heading', __('Customers also purchased', 'woocommerce'));
 
-		<?php
-		$heading = apply_filters('woocommerce_product_related_products_heading', __('Customers also purchased', 'woocommerce'));
+        if ($heading) :
+            ?>
+            <h2 class="mb-6 text-lg font-medium text-gray-900"><?php echo esc_html($heading); ?></h2>
+        <?php endif; ?>
 
-		if ($heading) :
-		?>
-			<h2 class="mb-6 text-lg font-medium text-gray-900"><?php echo esc_html($heading); ?></h2>
-		<?php endif; ?>
+        <?php woocommerce_product_loop_start(); ?>
 
-		<?php woocommerce_product_loop_start(); ?>
+        <?php foreach ($related_products as $related_product) : ?>
+            <?php
+            $post_object = get_post($related_product->get_id());
 
-		<?php foreach ($related_products as $related_product) : ?>
+            setup_postdata($GLOBALS['post'] = &$post_object); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited, Squiz.PHP.DisallowMultipleAssignments.Found
 
-			<?php
-			$post_object = get_post($related_product->get_id());
+            wc_get_template_part('content', 'product');
+            ?>
 
-			setup_postdata($GLOBALS['post'] = &$post_object); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited, Squiz.PHP.DisallowMultipleAssignments.Found
+        <?php endforeach; ?>
 
-			wc_get_template_part('content', 'product');
-			?>
+        <?php woocommerce_product_loop_end(); ?>
 
-		<?php endforeach; ?>
-
-		<?php woocommerce_product_loop_end(); ?>
-
-	</section>
-<?php
+    </section>
+    <?php
 endif;
 
 wp_reset_postdata();

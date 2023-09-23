@@ -17,17 +17,17 @@
  */
 
 if (!defined('ABSPATH')) {
-	exit;
+    exit;
 }
 
 if (!$notices) {
-	return;
+    return;
 }
 
 ?>
 
 <?php foreach ($notices as $notice) : ?>
-	<div class="text-sm text-green-700 border-t-0 woocommerce-message not-prose rounded-xl bg-green-50" <?php echo wc_get_notice_data_attr($notice); ?> role="alert">
-		<p><?php echo wc_kses_notice($notice['notice']); ?></p>
-	</div>
+    <div class="text-sm text-green-700 border-t-0 woocommerce-message not-prose rounded-xl bg-green-50" <?php echo wc_get_notice_data_attr($notice); ?> role="alert">
+        <p><?php echo wc_kses_notice($notice['notice']); ?></p>
+    </div>
 <?php endforeach; ?>

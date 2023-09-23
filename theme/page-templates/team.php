@@ -108,7 +108,7 @@ entry_title();
                             </ul>
                         <?php endif; ?>
                 </li>
-        <?php
+                <?php
             endwhile;
         endif;
         ?>
